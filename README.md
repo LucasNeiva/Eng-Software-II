@@ -1,25 +1,29 @@
-## NOME DO TEMA:
-Marketplace de serviços freelancer
+# Projeto: Marketplace de Serviços Freelancer
 
-## PARTICIPANTES:
+## Participantes
 - Afonso Henrique
 - Arthur Motter
 - Edson Mitsuru
 - Gustavo Motta
 - Lucas Neiva
 
-## TECNOLOGIAS:
-React, Oracle db, HTML, CSS, JavaScript.
+## Tecnologias Utilizadas
+- React
+- Oracle Database
+- HTML
+- CSS
+- JavaScript
 
-## RESUMO
-Este projeto tem como objetivo conectar freelancers a clientes que precisam de serviços como design, TI, consultoria, marketing, tradução e redação, administrativo, etc.
+## Resumo
+O projeto visa estabelecer um Marketplace que conecta profissionais freelancers a potenciais clientes, oferecendo uma variedade de serviços, como design, consultoria em TI, marketing, tradução e redação, além de soluções administrativas.
 
-## PÚBLICO-ALVO
-Nosso público-alvo abrange freelancers e pequenas/médias empresas.
+## Público-Alvo
+O público-alvo do projeto abrange tanto freelancers altamente qualificados quanto pequenas e médias empresas em busca de serviços especializados.
 
-## PRINCIPAIS DORES
-Este projeto busca resolver as dores de encontrar bons profissionais freelancers, gerenciar pagamentos e construir confiança entre as partes.
+## Principais Desafios
+Este projeto se propõe a abordar os desafios de identificar profissionais freelancers competentes, simplificar o gerenciamento de pagamentos e estabelecer uma base sólida de confiança entre as partes envolvidas.
 
-## FORMAS DE MONETIZAÇÃO
-- Taxa de transação entre empresa e pessoa física
-- Compra de plano premium.
+## Estratégias de Monetização
+Para garantir a sustentabilidade financeira, consideramos as seguintes estratégias de monetização:
+- Implementação de uma taxa de transação em negociações entre empresas e pessoas físicas
+- Oferta de planos premium com recursos adicionais para os usuários.
