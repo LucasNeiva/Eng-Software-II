@@ -4,7 +4,7 @@
 - Afonso Henrique
 - Arthur Motter
 - Edson Mitsuru
-- Gustavo Motta
+- Gustavo Mota
 - Lucas Neiva
 
 ## Tecnologias Utilizadas
