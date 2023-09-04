@@ -6,7 +6,7 @@ O sistema consiste de um marketplace online que tem como objetivo conectar profi
 
  A plataforma permite que freelancers de diferentes áreas, como design, programação e marketing, criem perfis destacando suas especialidades, portfólio de trabalho e valores cobrados.
 
- Do outro lado, empresas e profissionais que precisam contratar serviços pontuais podem pesquisar e encontrar freelancers ideais para seus projetos, enviando propostas de trabalho e negociando os detalhes da contratação.
+ Do outro lado, empresas e profissionais que precisam contratar serviços pontuais podem pesquisar e encontrar freelancers ideais para seus projetos, enviando propostas de trabalho e negociando os detalhes da contratação. Empresas também podem criar um serviço e deixar que os freelancers entrem em contato.
 
  Dentro do sistema, freelancers podem gerenciar seus projetos em andamento, receber pagamentos e avaliar os contratantes depois da finalização dos trabalhos. Já os contratantes podem acompanhar o progresso, aprovar entregas e avaliar o trabalho dos freelancers.
 
@@ -26,11 +26,10 @@ O sistema consiste de um marketplace online que tem como objetivo conectar profi
 - Gerenciamento de projetos
   - Acompanhamento de entregas e prazos
   - Freelancer envia atualizações e pede aprovação em marcos
-  - Contratante aprova marcos e faz pagamentos parciais
 - Pagamentos
   - Integração com gateways de pagamento
-  - Freelancer emite cobranças e recebe depósitos
-  - Contratante deposita valores referentes a entregas e marcos
+  - Contratante paga após negociar serviço e ambas as partes entrarem em acordo
+  - Freelancer recebe o pagamento após conclusão do serviço
 - Avaliações
   - Após finalização, ambos avaliam experiência de trabalho
   - Avaliações publicadas no perfil para consulta
