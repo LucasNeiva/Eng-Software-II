@@ -4,22 +4,40 @@
 
 O sistema consiste em um marketplace online que tem como objetivo conectar profissionais autônomos (freelancers) a empresas e profissionais que buscam serviços sob demanda.
 
-A plataforma permite que freelancers de diferentes áreas, como design, programação e marketing, criem perfis destacando suas especialidades, portfólio de trabalho e valores cobrados.
+ A plataforma permite que freelancers de diferentes áreas, como design, programação e marketing, criem perfis destacando suas especialidades, portfólio de trabalho e valores cobrados.
 
-Do outro lado, empresas e profissionais que precisam contratar serviços pontuais podem pesquisar e encontrar freelancers ideais para seus projetos, enviando propostas de trabalho e negociando os detalhes da contratação.
+ Do outro lado, empresas e profissionais que precisam contratar serviços pontuais podem pesquisar e encontrar freelancers ideais para seus projetos, enviando propostas de trabalho e negociando os detalhes da contratação.
 
-Dentro do sistema, freelancers podem gerenciar seus projetos em andamento, receber pagamentos e avaliar os contratantes depois da finalização dos trabalhos. Já os contratantes podem acompanhar o progresso, aprovar entregas e avaliar o trabalho dos freelancers.
+ Dentro do sistema, freelancers podem gerenciar seus projetos em andamento, receber pagamentos e avaliar os contratantes depois da finalização dos trabalhos. Já os contratantes podem acompanhar o progresso, aprovar entregas e avaliar o trabalho dos freelancers.
 
-O objetivo é facilitar a conexão entre profissionais autônomos e aqueles que buscam serviços sob demanda, provendo um sistema transparente, confiável e com recursos para gerenciamento de projetos e pagamentos, trazendo benefícios para ambos os lados.
+ O objetivo é facilitar a conexão entre profissionais autônomos e aqueles que buscam serviços sob demanda, provendo um sistema transparente, confiável e com recursos para gerenciamento de projetos e pagamentos, trazendo benefícios para ambos os lados.
 
-## Funcionalidades MVP
+## Requisitos do sistema (MVP)
 
-- Cadastro de perfis de freelancers com informações como especialidade, portfólio, valor hora trabalhada etc.
-- Cadastro de empresas contratantes com informações como ramo de atuação, localização, contatos.
-- Mecanismo de busca e filtros para que contratantes encontrem freelancers de acordo com habilidades e requisitos.
-- Envio de propostas de projetos pelas empresas e aceite por parte dos freelancers.
-- Gerenciamento de projetos e pagamentos dentro da plataforma.
-- Sistema de avaliação mútua entre freelancers e contratantes.
+- Cadastro completo de perfis
+  - Freelancer informa especialidades, formação, portfólio, valor hora trabalhada
+  - Contratante informa ramo, localização, equipe, objetivos
+- Busca e filtros
+  - Contratantes buscam freelancers por habilidade, localização, valores cobrados
+  - Opções de ordenação por avaliação, preço, experiência
+- Envio e aceite de propostas
+  - Contratante envia proposta detalhando projeto, prazo e orçamento
+  - Freelancer pode aceitar ou recusar proposta, além de negociar detalhes
+- Gerenciamento de projetos
+  - Acompanhamento de entregas e prazos
+  - Freelancer envia atualizações e pede aprovação em marcos
+  - Contratante aprova marcos e faz pagamentos parciais
+- Pagamentos
+  - Integração com gateways de pagamento
+  - Freelancer emite cobranças e recebe depósitos
+  - Contratante deposita valores referentes a entregas
+- Avaliações
+  - Após finalização, ambos avaliam experiência de trabalho
+  - Avaliações publicadas no perfil para consulta
+- Notificações
+  - Alertas por e-mail sobre propostas recebidas, pagamentos efetuados etc
+- Painel de controle
+  - Dashboard com projetos, financias, avaliações de cada usuario
 
 ## Perfis
 
