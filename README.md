@@ -2,7 +2,7 @@
 
 ## Resumo:
 
-O sistema consiste em um marketplace online que tem como objetivo conectar profissionais autônomos (freelancers) a empresas e profissionais que buscam serviços sob demanda.
+O sistema consiste de um marketplace online que tem como objetivo conectar profissionais autônomos (freelancers) a empresas e profissionais que buscam serviços sob demanda.
 
  A plataforma permite que freelancers de diferentes áreas, como design, programação e marketing, criem perfis destacando suas especialidades, portfólio de trabalho e valores cobrados.
 
@@ -15,8 +15,8 @@ O sistema consiste em um marketplace online que tem como objetivo conectar profi
 ## Requisitos do sistema (MVP)
 
 - Cadastro completo de perfis
-  - Freelancer informa especialidades, formação, portfólio, valor hora trabalhada
-  - Contratante informa ramo, localização, equipe, objetivos
+  - Freelancer informa especialidades, formação, portfólio, valor da hora trabalhada
+  - Contratante informa ramo, localização, equipe, objetivos a serem cumpridos
 - Busca e filtros
   - Contratantes buscam freelancers por habilidade, localização, valores cobrados
   - Opções de ordenação por avaliação, preço, experiência
@@ -30,14 +30,14 @@ O sistema consiste em um marketplace online que tem como objetivo conectar profi
 - Pagamentos
   - Integração com gateways de pagamento
   - Freelancer emite cobranças e recebe depósitos
-  - Contratante deposita valores referentes a entregas
+  - Contratante deposita valores referentes a entregas e marcos
 - Avaliações
   - Após finalização, ambos avaliam experiência de trabalho
   - Avaliações publicadas no perfil para consulta
 - Notificações
   - Alertas por e-mail sobre propostas recebidas, pagamentos efetuados etc
 - Painel de controle
-  - Dashboard com projetos, financias, avaliações de cada usuario
+  - Dashboard com projetos, finanças, avaliações de cada usuario
 
 ## Perfis
 
@@ -59,4 +59,4 @@ O sistema consiste em um marketplace online que tem como objetivo conectar profi
 ## Observações
 
 - Em versões posteriores: integração com APIs de pagamento, chat entre usuários, recursos adicionais de gerenciamento de projetos.
-- Monetização via comissão sobre transações realizadas.
+- Monetização via comissão sobre transações realizadas e de anúncios de serviços.
