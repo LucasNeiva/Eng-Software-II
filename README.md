@@ -20,7 +20,7 @@ O sistema consiste de um marketplace online que tem como objetivo conectar profi
 - Busca e filtros
   - Contratantes buscam freelancers por habilidade, localização, valores cobrados
   - Opções de ordenação por avaliação, preço, experiência
-- Envio e aceite de propostas
+- Envio e aceitação de propostas
   - Contratante envia proposta detalhando projeto, prazo e orçamento
   - Freelancer pode aceitar ou recusar proposta, além de negociar detalhes
 - Gerenciamento de projetos
@@ -49,14 +49,15 @@ O sistema consiste de um marketplace online que tem como objetivo conectar profi
 - Front-end em React
 - Banco de dados Oracle
 - Hospedagem em servidores na nuvem
-- Nod.js
+- Node.js
 - Javascript
 
 ## Responsividade
 
 - Layout responsivo para telas a partir de 360px de largura
+- ignorar resoluções menores que 360px
 
 ## Observações
 
 - Em versões posteriores: integração com APIs de pagamento, chat entre usuários, recursos adicionais de gerenciamento de projetos.
-- Monetização via comissão sobre transações realizadas e de anúncios de serviços.
+- Monetização via comissão sobre transações realizadas e sob publicidade e anúncios de serviços.
