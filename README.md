@@ -6,8 +6,7 @@ O sistema consiste de um marketplace online que tem como objetivo conectar profi
 
  A plataforma permite que freelancers de diferentes áreas, como design, programação e marketing, criem perfis destacando suas especialidades, portfólio de trabalho e valores cobrados.
 
- Do outro lado, empresas e profissionais que precisam contratar serviços pontuais podem pesquisar e encontrar freelancers ideais para seus projetos, enviando propostas de trabalho e negociando os detalhes da contratação. Empresas também podem criar um serviço e deixar que os freelancers entrem em contato.
-
+ Do outro lado, empresas e profissionais que precisam contratar serviços pontuais podem pesquisar e encontrar freelancers ideais para seus projetos, enviando propostas de trabalho e negociando os detalhes da contratação.
  Dentro do sistema, freelancers podem gerenciar seus projetos em andamento, receber pagamentos e avaliar os contratantes depois da finalização dos trabalhos. Já os contratantes podem acompanhar o progresso, aprovar entregas e avaliar o trabalho dos freelancers.
 
  O objetivo é facilitar a conexão entre profissionais autônomos e aqueles que buscam serviços sob demanda, provendo um sistema transparente, confiável e com recursos para gerenciamento de projetos e pagamentos, trazendo benefícios para ambos os lados.
@@ -28,8 +27,8 @@ O sistema consiste de um marketplace online que tem como objetivo conectar profi
   - Freelancer envia atualizações e pede aprovação em marcos
 - Pagamentos
   - Integração com gateways de pagamento
-  - Contratante paga após negociar serviço e ambas as partes entrarem em acordo
-  - Freelancer recebe o pagamento após conclusão do serviço
+  - Contratante pode pagar pelo serviço por completo após o contrato ser fechado ou durante o período do serviço, no caso de serviços de longa duração
+  - Freelancer recebe o pagamento após conclusão do serviço ou de maneira periódica, no caso de serviços de longa duraçao
 - Avaliações
   - Após finalização, ambos avaliam experiência de trabalho
   - Avaliações publicadas no perfil para consulta
@@ -58,5 +57,5 @@ O sistema consiste de um marketplace online que tem como objetivo conectar profi
 
 ## Observações
 
-- Em versões posteriores: integração com APIs de pagamento, chat entre usuários, recursos adicionais de gerenciamento de projetos.
+- Em versões posteriores: recursos adicionais de gerenciamento de projetos.
 - Monetização via comissão sobre transações realizadas e sob publicidade e anúncios de serviços.
