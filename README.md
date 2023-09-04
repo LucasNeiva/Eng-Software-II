@@ -47,8 +47,10 @@ O sistema consiste em um marketplace online que tem como objetivo conectar profi
 ## Tecnologias
 
 - Front-end em React
-- Banco de dados MySQL
+- Banco de dados Oracle
 - Hospedagem em servidores na nuvem
+- Nod.js
+- Javascript
 
 ## Responsividade
 
