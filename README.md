@@ -1,5 +1,17 @@
 # Briefing Sistema Marketplace Serviços Freelancer
 
+## Participantes
+
+- Afonso Henrique
+
+- Arthur Motter
+
+- Edson Mitsuru
+
+- Gustavo Mota
+
+- Lucas Neiva
+  
 ## Resumo:
 
 O sistema consiste de um marketplace online que tem como objetivo conectar profissionais autônomos (freelancers) a empresas e profissionais que buscam serviços sob demanda.
