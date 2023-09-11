@@ -1,5 +1,4 @@
-# Briefing Sistema Marketplace Serviços Freelancer
-
+# Briefing GetSamurai
 ## Participantes
 
 - Afonso Henrique
