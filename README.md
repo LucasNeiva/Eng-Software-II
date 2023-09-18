@@ -71,4 +71,5 @@ O sistema consiste de um marketplace online que tem como objetivo conectar profi
 - Em versões posteriores: recursos adicionais de gerenciamento de projetos.
 - Monetização via comissão sobre transações realizadas e sob publicidade e anúncios de serviços.
 
-## diagrama de casos de uso
+## Diagrama de casos de uso
+![image](https://github.com/lucasneiva/Eng-Software-II/assets/105697480/5c891633-a208-47ea-a998-b80207334533)
