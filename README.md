@@ -70,3 +70,5 @@ O sistema consiste de um marketplace online que tem como objetivo conectar profi
 
 - Em versões posteriores: recursos adicionais de gerenciamento de projetos.
 - Monetização via comissão sobre transações realizadas e sob publicidade e anúncios de serviços.
+
+## diagrama de casos de uso
