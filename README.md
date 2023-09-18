@@ -73,3 +73,8 @@ O sistema consiste de um marketplace online que tem como objetivo conectar profi
 
 ## Diagrama de casos de uso
 ![image](https://github.com/lucasneiva/Eng-Software-II/assets/105697480/5c891633-a208-47ea-a998-b80207334533)
+
+
+## Prototipação da Tela Principal em Baixa Fidelidade
+![MicrosoftTeams-image](https://github.com/lucasneiva/Eng-Software-II/assets/105697480/af147a7a-661c-44bd-b7a7-9a2ec451fb46)
+
