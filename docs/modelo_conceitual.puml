@@ -1,80 +1,66 @@
 @startuml
 
 class Freelancer {
-  - Nome: String
-  - Endereço: String
-  - Idade: int
-  - Tempo na Plataforma: int
-  + RealizarProposta(Serviço)
-  + VisualizarProjetos()
+    - Nome: String
+    - Descrição: String
+    - Endereço: String
+    - Tipo: Long
+    - Data de Nascimento: Date
+    - Data de ingresso na plataforma: Date
+    + RealizarProposta(Serviço)
+    + Aceitar 
+    + VisualizarProjetos()
+}
+
+class Usuário {
+    - ID: Long
+    - Nome: String
+    - Email: String
+    - Senha: String
+    - Telefone: String
 }
 
 class Contratante {
   - Nome: String
   - Endereço: String
-  - Porte: String
+  - Area de atuação: String
   + PublicarProjeto(Projeto)
   + VisualizarFreelancers()
 }
 
-class Área {
-  - Sub-área: String
-  - Tempo de Experiência: int
-}
+class Tipo de 
 
-class Serviço {
-  - Título: String
-  - Nome do Contratante: String
-  - Descrição: String
-  - Tempo Esperado: int
-  - Prazo Desejado para Entrega: Date
-  - Custo Esperado: double
-  + Contratar(Freelancer)
+class Área {
+    - ID: Long
+    - Nome: String
+    - Descrição: String
 }
 
 class Projeto {
-  - Título: String
-  - Status: String (Em Andamento, Visto, Em Negociação)
+    - Nome: String
+    - Contratante: Id
+    - Freelancers: List<Id>
+    - Descrição: String
+    - Tempo Esperado: int
+    - Prazo Desejado para Entrega: Date
+    - Custo Esperado: double
+    - Data de Início: Date
+    - Data de Conclusão: Date
+    - Diferença da Conclusão com o Prazo Definido: Date
+    - Preço: double
+    - Horas Totais: int
+    - Partes Envolvidas: String
+    - Avaliação: int
+    + Contratar(Freelancer)
 }
 
-class ProjetosConcluídos {
-  - Título: String
-  - Data de Início: Date
-  - Data de Conclusão: Date
-  - Diferença da Conclusão com o Prazo Definido: int
-  - Preço: double
-  - Horas Totais: int
-  - Partes Envolvidas: String
-  - Avaliação: int
-}
-
-class PesquisaFreelancers {
-  - Serviços Disponíveis: List<Serviço>
-  - Filtros: String
-  - Barra de Pesquisa: String
-}
-
-class PesquisaContratantes {
-  - Perfis de Freelancers: List<Freelancer>
-  - Filtros: String
-  - Barra de Pesquisa: String
-}
-
-class PáginaContratante {
-  - Nome: String
-  - Data que: Date
-}
-
-class PáginaFreelancer {
-  - Nome: String
-  - Data que: Date
-}
-
-Freelancer --|> Serviço
 Contratante --|> Projeto
-Contratante --|> PesquisaFreelancers
-Freelancer --|> PesquisaContratantes
-PáginaContratante --|> Contratante
-PáginaFreelancer --|> Freelancer
+
+Usuário <|-- Contratante
+Usuário <|-- Freelancer
+
+
+Freelancer o--o Área
+
 
 @enduml
