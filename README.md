@@ -76,4 +76,5 @@ O sistema consiste de um marketplace online que tem como objetivo conectar profi
 
 
 ## Prototipação da Tela Principal em Baixa Fidelidade
-![MicrosoftTeams-image](https://github.com/lucasneiva/Eng-Software-II/assets/105697480/af147a7a-661c-44bd-b7a7-9a2ec451fb46)
+![image](https://github.com/lucasneiva/Eng-Software-II/assets/105697480/8472a065-8ef8-45cf-92a3-c1e59619f862)
+
