@@ -91,7 +91,7 @@ O **GetSamurai** Resolverá Esses Problemas Facilitando a Conexão entre Freelan
 - Problemas Técnicos na Plataforma: Monitoramento Pró-ativo e Resposta Rápida da Equipe de TI
 - Concorrência de Players Estabelecidos: Diferenciar-se por Meio de Atendimento Personalizado e Solução Especializada
 
-## Diagrama de casos de uso
+## Casos de Uso
 ![casos_de_uso](https://github.com/lucasneiva/Eng-Software-II/assets/112989505/67f77646-0fe8-4be4-abc6-21ebad4112ed)
 
 ## Modelo Conceitual
