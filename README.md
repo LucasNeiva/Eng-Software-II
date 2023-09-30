@@ -92,7 +92,7 @@ O **GetSamurai** Resolverá Esses Problemas Facilitando a Conexão entre Freelan
 - Concorrência de Players Estabelecidos: Diferenciar-se por Meio de Atendimento Personalizado e Solução Especializada
 
 ## Diagrama de casos de uso
-![image](https://github.com/lucasneiva/Eng-Software-II/assets/105697480/5c891633-a208-47ea-a998-b80207334533)
+![image](out\docs\casos_de_uso\casos_de_uso.png)
 
 
 ## Prototipação da Tela Principal em Baixa Fidelidade

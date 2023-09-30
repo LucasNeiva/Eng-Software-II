@@ -1,0 +1,22 @@
+@startuml
+
+left to right direction
+
+actor "Freelancer" as F
+actor "Empresa" as E
+actor "Administrador" as A
+
+F --> (Criar Perfil de Freelancer)
+F --> (Buscar Vagas)
+E --> (Postar Vaga)
+F --> (Enviar Proposta)
+E --> (Gerenciar Propostas)
+F --> (Comunicação)
+E --> (Comunicação)
+F --> (Gerenciar Projeto)
+E --> (Gerenciar Projeto)
+F --> (Receber Pagamento)
+A --> (Gerenciar Usuários)
+A --> (Configurar Sistema)
+
+@enduml
