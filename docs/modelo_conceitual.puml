@@ -1,66 +1,91 @@
 @startuml
 
-class Freelancer {
-    - Nome: String
-    - Descrição: String
-    - Endereço: String
-    - Tipo: Long
-    - Data de Nascimento: Date
-    - Data de ingresso na plataforma: Date
-    + RealizarProposta(Serviço)
-    + Aceitar 
-    + VisualizarProjetos()
-}
-
 class Usuário {
-    - ID: Long
-    - Nome: String
-    - Email: String
-    - Senha: String
-    - Telefone: String
+  - id: int
+  - nome: string
+  - email: string
+  + logIn(): void
+  + logOut(): void
 }
 
-class Contratante {
-  - Nome: String
-  - Endereço: String
-  - Area de atuação: String
-  + PublicarProjeto(Projeto)
-  + VisualizarFreelancers()
+class Freelancer {
+  - skills: string[]
+  - reputação: int
+  - portfolio: string
+  + enviarProposta(vaga: Vaga, valor: float): void
 }
 
-class Tipo de 
+class Empresa {
+  - vagas_abertas: Vaga[]
+  + criarVaga(titulo: string, descricao: string, remuneracao: float): Vaga
+}
 
-class Área {
-    - ID: Long
-    - Nome: String
-    - Descrição: String
+class Administrador {
+  + gerenciarUsuários(): void
+}
+
+class Vaga {
+  - id: int
+  - titulo: string
+  - descricao: string
+  - remuneração: float
+  + fecharVaga(): void
+  + receberProposta(proposta: Proposta): void
+}
+
+class Proposta {
+  - id: int
+  - freelancer: Freelancer
+  - vaga: Vaga
+  - valor: float
+  - status: string
+  + aceitarProposta(): void
 }
 
 class Projeto {
-    - Nome: String
-    - Contratante: Id
-    - Freelancers: List<Id>
-    - Descrição: String
-    - Tempo Esperado: int
-    - Prazo Desejado para Entrega: Date
-    - Custo Esperado: double
-    - Data de Início: Date
-    - Data de Conclusão: Date
-    - Diferença da Conclusão com o Prazo Definido: Date
-    - Preço: double
-    - Horas Totais: int
-    - Partes Envolvidas: String
-    - Avaliação: int
-    + Contratar(Freelancer)
+  - id: int
+  - nome: string
+  - empresa: Empresa
+  + adicionarMembro(usuario: Usuário): void
 }
 
-Contratante --|> Projeto
+class Pagamento {
+  - id: int
+  - valor: float
+  - tipo: string
+  - status: string
+  - projeto: Projeto
+  + efetuarPagamento(): void
+}
 
-Usuário <|-- Contratante
+class Mensagem {
+  - id: int
+  - texto: string
+  - remetente: Usuário
+  - destinatário: Usuário
+  + enviarMensagem(destinatario: Usuário, texto: string): void
+}
+
+class Feedback {
+  - avaliação: int
+  - comentário: string
+  - usuário: Usuário
+  + deixarFeedback(avaliacao: int, comentario: string): void
+}
+
+Usuário <|-- Administrador
+Usuário <|-- Empresa
 Usuário <|-- Freelancer
 
 
-Freelancer o--o Área
-
+Freelancer --> Proposta: Faz Proposta
+Empresa --> Proposta: Recebe Proposta
+Freelancer --> Projeto: Participa em
+Empresa --> Projeto: Inicia
+Administrador -- Usuário: Gerencia
+Projeto -- Pagamento: Realiza Pagamento
+Projeto -- Feedback: Recebe Feedback
+Mensagem -- Usuário: Envia Mensagem
+Vaga "1" -- "0..*" Proposta: Tem Propostas
 
 @enduml
