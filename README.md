@@ -1,5 +1,6 @@
-# Briefing GetSamurai
-## Participantes
+# GetSamurai - Facilitando a Jornada de Freelancers e Empresas com uma Plataforma Ágil e Confiável
+
+## Participantes do Projeto
 
 - Afonso Henrique
 
@@ -10,66 +11,85 @@
 - Gustavo Mota
 
 - Lucas Neiva
-  
-## Resumo:
 
-O sistema consiste de um marketplace online que tem como objetivo conectar profissionais autônomos (freelancers) a empresas e profissionais que buscam serviços sob demanda.
+## Resumo:~
 
- A plataforma permite que freelancers de diferentes áreas, como design, programação e marketing, criem perfis destacando suas especialidades, portfólio de trabalho e valores cobrados.
+  O GetSamurai é uma plataforma online que conecta freelancers e empresas em projetos de design, programação e marketing digital de forma rápida e segura. Oferece perfis verificados, busca avançada, chat, gerenciamento de projetos e pagamentos. O objetivo é resolver os desafios de freelancers encontrarem projetos e empresas contratarem talentos de forma eficiente. Utiliza tecnologias como React, NodeJS e MongoDB. A monetização vem de assinaturas premium, taxas por projeto, publicidade e serviços adicionais. Métricas-chave, estratégias de marketing, suporte e lançamento são definidos, assim como riscos e mitigação.
 
- Do outro lado, empresas e profissionais que precisam contratar serviços pontuais podem pesquisar e encontrar freelancers ideais para seus projetos, enviando propostas de trabalho e negociando os detalhes da contratação.
- Dentro do sistema, freelancers podem gerenciar seus projetos em andamento, receber pagamentos e avaliar os contratantes depois da finalização dos trabalhos. Já os contratantes podem acompanhar o progresso, aprovar entregas e avaliar o trabalho dos freelancers.
+## Problema:
 
- O objetivo é facilitar a conexão entre profissionais autônomos e aqueles que buscam serviços sob demanda, provendo um sistema transparente, confiável e com recursos para gerenciamento de projetos e pagamentos, trazendo benefícios para ambos os lados.
+- Freelancers Enfrentam Desafios na Busca por Projetos de Qualidade e Clientes Competentes
+- Empresas Enfrentam Dificuldades para Encontrar e Recrutar Freelancers Talentosos de Maneira Eficiente
 
-## Requisitos do sistema (MVP)
+## Solução:
 
-- Cadastro completo de perfis
-  - Freelancer informa especialidades, formação, portfólio, valor da hora trabalhada
-  - Contratante informa ramo, localização, equipe, objetivos a serem cumpridos
-- Busca e filtros
-  - Contratantes buscam freelancers por habilidade, localização, valores cobrados
-  - Opções de ordenação por avaliação, preço, experiência
-- Envio e aceitação de propostas
-  - Contratante envia proposta detalhando projeto, prazo e orçamento
-  - Freelancer pode aceitar ou recusar proposta, além de negociar detalhes
-- Gerenciamento de projetos
-  - Acompanhamento de entregas e prazos
-  - Freelancer envia atualizações e pede aprovação em marcos
-- Pagamentos
-  - Integração com gateways de pagamento
-  - Contratante pode pagar pelo serviço por completo após o contrato ser fechado ou durante o período do serviço, no caso de serviços de longa duração
-  - Freelancer recebe o pagamento após conclusão do serviço ou de maneira periódica, no caso de serviços de longa duraçao
-- Avaliações
-  - Após finalização, ambos avaliam experiência de trabalho
-  - Avaliações publicadas no perfil para consulta
-- Notificações
-  - Alertas por e-mail sobre propostas recebidas, pagamentos efetuados etc
-- Painel de controle
-  - Dashboard com projetos, finanças, avaliações de cada usuario
+O **GetSamurai** Resolverá Esses Problemas Facilitando a Conexão entre Freelancers e Contratantes de Forma Ágil, Segura e Transparente em Projetos de Design, Programação e Marketing Digital.
 
-## Perfis
+## Personas:
 
-- Freelancer: cadastra perfil, recebe propostas de projeto, avalia contratantes após finalização.
-- Contratante: cadastra empresa, busca e seleciona freelancers, envia propostas, avalia freelancers após finalização.
+1. Jéssica: Designer, 27 Anos, Busca Projetos Estáveis e Bem Remunerados
+2. João: Programador, 30 Anos, Procura Projetos Desafiadores com Boa Remuneração
+3. Sílvio: Redator, 40 Anos, Aceita Projetos Flexíveis em Meio Período
+4. Move Digital: Agência com 20 Funcionários, Procura um Freelancer React para Projeto de 3 Meses
+5. SiteUp: Startup de E-commerce, Busca um Freelancer WordPress para Projeto Contínuo
 
-## Tecnologias
+## Requisitos do Sistema (MVP):
 
-- Front-end em React
-- Banco de dados Oracle
-- Hospedagem em servidores na nuvem
-- Node.js
-- Javascript
+- Criação de Perfis com Portfólios, Habilidades, Reputação e Valores
+- Busca Avançada e Filtros para Vagas e Freelancers
+- Envio e Gerenciamento de Propostas
+- Comunicação via Chat e Videoconferência
+- Ferramentas de Gerenciamento de Projetos: Tarefas, Cronograma e Armazenamento de Arquivos
+- Gateway de Pagamentos Integrado
 
-## Responsividade
+## Tecnologias:
 
-- Layout responsivo para telas a partir de 360px de largura
-- ignorar resoluções menores que 360px
+- Frontend: React (Eficiente para Renderização)
+- Backend: NodeJS (Escalável e Flexível)
+- Banco de Dados: MongoDB (Bom para Escala e Desempenho)
+- Hospedagem: AWS (Confiável e Flexível)
 
-## Observações
+## Monetização:
 
-- Em versões posteriores: recursos adicionais de gerenciamento de projetos.
-- Monetização via comissão sobre transações realizadas e sob publicidade e anúncios de serviços.
+ - *Assinatura Premium para Empresas*: Fornece acesso a recursos avançados, como busca aprimorada e suporte prioritário.
+
+ - *Taxa Fixa por Projeto*: Uma taxa fixa é cobrada por projeto concluído, garantindo previsibilidade nos ganhos dos freelancers.
+
+ - *Publicidade e Patrocínio de Vagas*: Empresas podem promover projetos em destaque para freelancers, gerando uma fonte adicional de receita.
+
+ - *Serviços Adicionais Pagos*: Oferecemos serviços extras, como revisão de portfólios e consultoria, disponíveis para freelancers a um custo adicional.
+
+## Métricas-Chave:
+
+- Taxa de Conversão de Visitantes em Cadastros: Meta >25%
+- Taxa de Propostas Convertidas em Projetos: Meta >15%
+- Ticket Médio por Projeto: Meta R$5.000
+- NPS (Net Promoter Score): Meta >70
+
+## Estratégia de Marketing:
+
+- Conteúdo Patrocinado no LinkedIn, Instagram e TikTok
+- Tráfego Pago por Meio do Google Ads com Ênfase em Palavras-Chave Relacionadas
+- Parcerias com Comunidades e Influenciadores
+- E-mail Marketing e Remarketing para Recapturar Leads
+
+## Estratégia de Suporte:
+
+- Chat no Aplicativo com Resposta em Até 2 Horas
+- E-mail e Telefone com Resposta em Até 8 Horas
+- Base de Conhecimento e Fórum da Comunidade
+
+## Estratégia de Lançamento:
+
+- Cadastro Gratuito por 1 Mês Após o Lançamento
+- Ofertas Exclusivas para Empresas que Tragam Equipes de Freelancers
+- Marketing de Influenciadores e Promoções nas Redes Sociais
+
+## Riscos e Mitigação:
+
+- Baixo Engajamento Inicial de Usuários: Criar Conteúdo de Valor e Oferecer Benefícios para os Primeiros Usuários
+- Problemas Técnicos na Plataforma: Monitoramento Pró-ativo e Resposta Rápida da Equipe de TI
+- Concorrência de Players Estabelecidos: Diferenciar-se por Meio de Atendimento Personalizado e Solução Especializada
 
 ## Diagrama de casos de uso
 ![image](https://github.com/lucasneiva/Eng-Software-II/assets/105697480/5c891633-a208-47ea-a998-b80207334533)
