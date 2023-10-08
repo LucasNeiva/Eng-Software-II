@@ -8,10 +8,6 @@
 - Plataforma online para conectar freelancers e empresas
 - Perfis, busca, chat, gerenciamento, pagamentos
 
-# Slide 4 - Benefícios
-- Conexões ágeis e transparentes
-- Projetos de design, programação e marketing
-
 # Slide 5 - Personas (2 principais)
 - João: Programador, busca projetos desafiadores
 - Move Digital: Agência, procura freelancer React
@@ -21,32 +17,38 @@
 - Busca avançada e filtros
 - Chat e videoconferência
 
-# Slide 6.1 
-- Diagrama de casos de uso
+# Slide 7 - Casos de Uso
+- Diagrama simplificado com principais casos de uso
 
-# Slide 6.2
-- Modelo Conceitual
+# Slide 8 - Modelo Conceitual
+- Diagrama simplificado destacando principais entidades e relacionamentos
 
-# Slide 7 - Tecnologias
+# Slide 9 - Tarefas do GitHub Project
+- Quadro com principais tarefas em aberto, em progresso e concluídas
+
+# Slide 10 - Tela Principal (Protótipo)
+- Imagem do protótipo da tela principal com recursos principais
+
+# Slide 11 - Tecnologias
 - React, NodeJS, MongoDB
 - Cloud AWS
 
-# Slide 8 - Monetização
+# Slide 12 - Monetização
 - Assinaturas premium para empresas
 - Taxa por projeto concluído
 - Publicidade e patrocínio
 
-# Slide 9 - Métricas-Chave
+# Slide 13 - Métricas-Chave
 - Taxa de conversão de visitantes >25%
 - Ticket médio por projeto: R$5.000
 
-# Slide 10 - Estratégia de Marketing
+# Slide 14 - Estratégia de Marketing
 - Conteúdo patrocinado
 - Tráfego pago Google Ads
 - E-mail marketing e remarketing
 
-# Slide 11 - Riscos e Mitigação
+# Slide 15 - Riscos e Mitigação
 - Baixo engajamento inicial: benefícios para primeiros usuários
 - Problemas técnicos: monitoramento pró-ativo
 
-# Slide 12 - Perguntas? 
+# Slide 16 - Perguntas?
