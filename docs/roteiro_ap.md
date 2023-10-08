@@ -21,6 +21,12 @@
 - Busca avançada e filtros
 - Chat e videoconferência
 
+# Slide 6.1 
+- Diagrama de casos de uso
+
+# Slide 6.2
+- Modelo Conceitual
+
 # Slide 7 - Tecnologias
 - React, NodeJS, MongoDB
 - Cloud AWS
