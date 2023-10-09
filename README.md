@@ -95,8 +95,7 @@ O **GetSamurai** Resolverá Esses Problemas Facilitando a Conexão entre Freelan
 ![casos_de_uso](https://github.com/lucasneiva/Eng-Software-II/assets/112989505/67f77646-0fe8-4be4-abc6-21ebad4112ed)
 
 ## Modelo Conceitual
-
-![modelo_conceitual](https://github.com/lucasneiva/Eng-Software-II/assets/112989505/c7355fd0-7157-4289-8b02-41c79dca5193)
+![modelo_conceitual](https://github.com/lucasneiva/Eng-Software-II/assets/112989505/c2ee95fa-e8db-4e8e-a8cf-cfbab780a056)
 
 ## Prototipação da Tela Principal em Baixa Fidelidade
 ![MicrosoftTeams-image](https://github.com/lucasneiva/Eng-Software-II/assets/112989505/d0578b62-80a9-4bd7-8ec3-005e810abc35)
