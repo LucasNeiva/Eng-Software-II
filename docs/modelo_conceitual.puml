@@ -86,6 +86,6 @@ Administrador -- Usuário: Gerencia
 Projeto -- Pagamento: Realiza Pagamento
 Projeto -- Feedback: Recebe Feedback
 Mensagem -- Usuário: Envia Mensagem
-Vaga "1" -- "0..*" Proposta: Tem Propostas
+Vaga "1..N" -- "1" Projeto: Tem Vagas
 
 @enduml
