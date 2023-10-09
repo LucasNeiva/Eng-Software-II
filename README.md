@@ -12,7 +12,7 @@
 
 - Lucas Neiva
 
-## Resumo:~
+## Resumo:
 
   O GetSamurai é uma plataforma online que conecta freelancers e empresas em projetos de design, programação e marketing digital de forma rápida e segura. Oferece perfis verificados, busca avançada, chat, gerenciamento de projetos e pagamentos. O objetivo é resolver os desafios de freelancers encontrarem projetos e empresas contratarem talentos de forma eficiente. Utiliza tecnologias como React, NodeJS e MongoDB. A monetização vem de assinaturas premium, taxas por projeto, publicidade e serviços adicionais. Métricas-chave, estratégias de marketing, suporte e lançamento são definidos, assim como riscos e mitigação.
 
