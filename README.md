@@ -1,4 +1,4 @@
-# GetSamurai - Facilitando a Jornada de Freelancers e Empresas com uma Plataforma Ágil e Confiável
+# GetSamurais - Facilitando a Jornada de Freelancers e Empresas com uma Plataforma Ágil e Confiável
 
 ## Participantes do Projeto
 
@@ -14,7 +14,7 @@
 
 ## Resumo:
 
-  O GetSamurai é uma plataforma online que conecta freelancers e empresas em projetos de design, programação e marketing digital de forma rápida e segura. Oferece perfis verificados, busca avançada, chat, gerenciamento de projetos e pagamentos. O objetivo é resolver os desafios de freelancers encontrarem projetos e empresas contratarem talentos de forma eficiente. Utiliza tecnologias como React, NodeJS e MongoDB. A monetização vem de assinaturas premium, taxas por projeto, publicidade e serviços adicionais. Métricas-chave, estratégias de marketing, suporte e lançamento são definidos, assim como riscos e mitigação.
+  O GetSamurais é uma plataforma online que conecta freelancers e empresas em projetos de design, programação e marketing digital de forma rápida e segura. Oferece perfis verificados, busca avançada, chat, gerenciamento de projetos e pagamentos. O objetivo é resolver os desafios de freelancers encontrarem projetos e empresas contratarem talentos de forma eficiente. Utiliza tecnologias como React, NodeJS e MongoDB. A monetização vem de assinaturas premium, taxas por projeto, publicidade e serviços adicionais. Métricas-chave, estratégias de marketing, suporte e lançamento são definidos, assim como riscos e mitigação.
 
 ## Problema:
 
@@ -23,7 +23,7 @@
 
 ## Solução:
 
-O **GetSamurai** Resolverá Esses Problemas Facilitando a Conexão entre Freelancers e Contratantes de Forma Ágil, Segura e Transparente em Projetos de Design, Programação e Marketing Digital.
+O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freelancers e Contratantes de Forma Ágil, Segura e Transparente em Projetos de Design, Programação e Marketing Digital.
 
 ## Personas:
 
