@@ -35,7 +35,7 @@
             margin-top: 30px;
             border-color: lightgray;
         }
-        .image{
+        .img-btn{
             border-radius: 100%;
             height: 125px;
             width: 125px;
@@ -43,6 +43,11 @@
             margin-right: 20px;
             margin-left: 20px;
             border-color: lightgray;
+        }
+        .image{
+            text-align: center;
+            height: 60%;
+            width: 60%;
         }
         .subtext{
             font-size: 26px;
@@ -66,7 +71,9 @@
 <body class="body">
     <div class="barra">
         <span>
-            <button type="button" class="image">user-image</button>
+            <button type="button" class="img-btn">
+                <object class="image" data="person.svg"></object> 
+            </button>
             <div class="subtext"> Usuário </div>
         </span>
         
@@ -76,13 +83,17 @@
         </span>
 
         <span>
-            <button type="button" class="image">Chat</button>
+            <button type="button" class="img-btn">
+                <object class="image" data="chat-right-text.svg"></object> 
+            </button>
             <div class="subtext"> Conversas </div>
         </span>
 
         <span>
-            <button type="button" class="image">Notification</button>
-            <div class="subtext"> notificações </div>
+            <button type="button" class="img-btn">
+                <object class="image" data="bell.svg"></object> 
+            </button>
+            <div class="subtext"> Notificações </div>
         </span>
     </div>
 
