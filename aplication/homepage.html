@@ -11,263 +11,309 @@
             font-family:'Times New Roman', Times, serif;
         }
         .barra{
+            background-color: #f4f4f4;
+            border-bottom: rgba(0, 0, 0, 0.131);
+            border-style: groove;
+
+            justify-content: center;
             text-align: center;
-            padding-top: 50px;
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
             display: flex;
+        }
+        .col-flex{
+            display: flex;
+            justify-content: space-around;
+            min-width: 2400px;
+        }
+        .card{
+            margin: 10px;
+        }
+        .content-box{
+            border-radius: 20px;
+            border-color: rgba(0, 0, 0, 0.354);
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            border-style: groove;
+
+            margin: 10px;
+            margin-bottom: 20px;
+            padding-top: 10px;
+
+            overflow: auto;
+            white-space: nowrap;
+        }
+        .subtext{
+            font-size: 26px;
+            margin-top: 8px;
+            padding-top: 30px;
+            min-width: 175px;
+            margin-right: 60px;
+        }
+        .titulo-col{
+            font-size: 32px;
+            padding-top: 32px;
+            padding-bottom: 8px;
+            margin-left: 20px;
         }
         .input{
             text-align: left;
             text-indent: 20px;
             font-size: 24px;
+
             border-radius: 7px;
             margin: 20px;
-            width: 1200px;
+            min-width: 350px;
+            width: 50%;
             height: 75px;
-            margin-top: 30px;
+            margin-top: 20px;
             border-color: lightgray;
         }
         .inp-btn{
-            border-radius: 7px;
             font-size: 24px;
+
+            border-radius: 7px;
             margin: 20px;
+            margin-top: 20px;
+            margin-right: 60px;
             width: 110px;
             height: 75px;
-            margin-top: 30px;
+            
             border-color: lightgray;
+            border-style: groove;
         }
-        .img-btn{
+        .bar-btn{
             border-radius: 100%;
-            height: 125px;
-            width: 125px;
+            height: 100px;
+            min-width: 100px;
+
             margin: 5px;
             margin-right: 20px;
             margin-left: 20px;
-            border-color: lightgray;
-        }
-        .img{
-            border: none;
-            height: 180px;
-            width: 100%;
-        }
-        .image{
-            text-align: center;
-            height: 60%;
-            width: 60%;
-        }
-        .subtext{
-            font-size: 26px;
-        }
-        .titulo-col{
-            font-size: 32px;
-            padding-bottom: 16px;
-            margin-left: 20px;
-        }
-        .flex{
-            display: flex;
-            justify-content: space-around;
-            min-width: 1700px;
-        }
-        .col-flex{
-            display: flex;
-            min-width: 2400px;
-        }
-        .card{
-            margin: 10px;
+            background-color: #f4f4f4;
+            border-color: rgb(104, 103, 103);
+            border-style: dotted;
         }
         .btn-primary{
             text-align: center;
             width: 60%;
             padding: 10px;
         }
+        .img-btn{
+            text-align: center;
+
+            height: 60%;
+            width: 60%;
+        }
+        .img{
+            background-color: #b9b9b9;
+
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            border: none;
+            height: 180px;
+            width: 100%;
+        }
+        .prof-image{
+            height: 100%;
+            width: 100%;
+            border-radius: 100%;
+            align-self: right;
+        }
+        .footnote{
+            text-align: center;
+            font-size: 30px;
+
+            margin: 42px;
+        }
     </style>
 </head>
 <body class="body">
     <div class="barra">
-        <span>
-            <button type="button" class="img-btn">
-                <object class="image" data="person.svg"></object> 
-            </button>
-            <div class="subtext"> Usuário </div>
-        </span>
+        <a class="bar-btn"> <object class="prof-image" data="samurai_D.jpeg"></object> </a>
+        <div class="subtext"> Perfil do usuário </div>
         
-        <span>
-            <input class="input" placeholder="Buscar Freelancer">
-            <button class="inp-btn">Buscar</button>
-        </span>
-
-        <span>
-            <button type="button" class="img-btn">
-                <object class="image" data="chat-right-text.svg"></object> 
-            </button>
-            <div class="subtext"> Conversas </div>
-        </span>
-
-        <span>
-            <button type="button" class="img-btn">
-                <object class="image" data="bell.svg"></object> 
-            </button>
-            <div class="subtext"> Notificações </div>
-        </span>
+        <input class="input" placeholder="Buscar Freelancer">
+        <button class="inp-btn">Buscar</button>
+        
+        <button type="button" class="bar-btn">
+            <object class="img-btn" data="chat-right-text.svg"></object> 
+        </button>
+        
+        <button type="button" class="bar-btn">
+            <object class="img-btn" data="bell.svg"></object> 
+        </button>
     </div>
 
-    <div>
-        <object>
 
-        </object>
-    </div>
-
-    <div class="flex">
-        <div class="card" style="width: 16rem;">
-            <object class="img"> </object>
-            <div class="card-body">
-                <h5 class="card-title">Tema 1</h5>
-                <p class="card-text">atalho que leva de forma rápida a uma área e as profissões</p>
+    <div class="content-box" style="border-style: none;">
+        <div class="col-flex">
+            <div class="card" style="width: 14rem;">
+                <object class="img"> </object>
+                <div class="card-body">
+                    <h5 class="card-title">Tema 1</h5>
+                    <p class="card-text">atalho rápido de áreas</p>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 16rem;">
-            <object class="img"> </object>
-            <div class="card-body">
-                <h5 class="card-title">Tema 2</h5>
-                <p class="card-text">atalho que leva de forma rápida a uma área e as profissões</p>
+            <div class="card" style="width: 14rem;">
+                <object class="img"> </object>
+                <div class="card-body">
+                    <h5 class="card-title">Tema 2</h5>
+                    <p class="card-text">atalho rápido de áreas</p>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 16rem;">
-            <object class="img"> </object>
-            <div class="card-body">
-                <h5 class="card-title">Tema 3</h5>
-                <p class="card-text">atalho que leva de forma rápida a uma área e as profissões</p>
+            <div class="card" style="width: 14rem;">
+                <object class="img"> </object>
+                <div class="card-body">
+                    <h5 class="card-title">Tema 3</h5>
+                    <p class="card-text">atalho rápido de áreas</p>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 16rem;">
-            <object class="img"> </object>
-            <div class="card-body">
-                <h5 class="card-title">Tema 4</h5>
-                <p class="card-text">atalho que leva de forma rápida a uma área e as profissões</p>
+            <div class="card" style="width: 14rem;">
+                <object class="img"> </object>
+                <div class="card-body">
+                    <h5 class="card-title">Tema 4</h5>
+                    <p class="card-text">atalho rápido de áreas</p>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 16rem;">
-            <object class="img"> </object>
-            <div class="card-body">
-                <h5 class="card-title">Tema 5</h5>
-                <p class="card-text">atalho que leva de forma rápida a uma área e as profissões</p>
+            <div class="card" style="width: 14rem;">
+                <object class="img"> </object>
+                <div class="card-body">
+                    <h5 class="card-title">Tema 5</h5>
+                    <p class="card-text">atalho rápido de áreas</p>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 16rem;">
-            <object class="img"> </object>
-            <div class="card-body">
-                <h5 class="card-title">Tema 6</h5>
-                <p class="card-text">atalho que leva de forma rápida a uma área e as profissões</p>
+            <div class="card" style="width: 14rem;">
+                <object class="img"> </object>
+                <div class="card-body">
+                    <h5 class="card-title">Tema 6</h5>
+                    <p class="card-text">atalho rápido de áreas</p>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 16rem;">
-            <object class="img"> </object>
-            <div class="card-body">
-                <h5 class="card-title">Tema 7</h5>
-                <p class="card-text">atalho que leva de forma rápida a uma área e as profissões</p>
+            <div class="card" style="width: 14rem;">
+                <object class="img"> </object>
+                <div class="card-body">
+                    <h5 class="card-title">Tema 7</h5>
+                    <p class="card-text">atalho rápido de áreas</p>
+                </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+                <object class="img"> </object>
+                <div class="card-body">
+                    <h5 class="card-title">Tema 8</h5>
+                    <p class="card-text">atalho rápido de áreas</p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div>
-        <object>
-
-        </object>
-    </div>
 
     <div>
         <div class="titulo-col"> Profissão X</div>
-        <div class="col-flex">
-            <div class="card" style="width: 32rem;">
-                <object class="img"> </object>
-                <div class="card-body">
-                    <h5 class="card-title">Card de profissão</h5>
-                    <p class="card-text">Aqui será mostrado as caracteristicas relevantes dos nossos profissionais nas respectivas áreas.</p>
-                    <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+        <div class="content-box" style="max-width: 100%;">
+            <div class="col-flex">
+                <div class="card" style="width: 26rem;">
+                    <object class="img"> </object>
+                    <div class="card-body">
+                        <h5 class="card-title">Card de profissão</h5>
+                        <p class="card-text">Aqui será mostrado as caracteristicas mais relevantes dos<br>
+                            nossos profissionais nas suas respectivas áreas de atuação<br></p>
+                        <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 26rem;">
+                    <object class="img"> </object>
+                    <div class="card-body">
+                        <h5 class="card-title">Card de profissão</h5>
+                        <p class="card-text">Aqui será mostrado as caracteristicas mais relevantes dos<br>
+                            nossos profissionais nas suas respectivas áreas de atuação<br></p>
+                        <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 26rem;">
+                    <object class="img"> </object>
+                    <div class="card-body">
+                        <h5 class="card-title">Card de profissão</h5>
+                        <p class="card-text">Aqui será mostrado as caracteristicas mais relevantes dos<br>
+                            nossos profissionais nas suas respectivas áreas de atuação<br></p>
+                        <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 26rem;">
+                    <object class="img"> </object>
+                    <div class="card-body">
+                        <h5 class="card-title">Card de profissão</h5>
+                        <p class="card-text">Aqui será mostrado as caracteristicas mais relevantes dos<br>
+                            nossos profissionais nas suas respectivas áreas de atuação<br></p>
+                        <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 26rem;">
+                    <object class="img"> </object>
+                    <div class="card-body">
+                        <h5 class="card-title">Card de profissão</h5>
+                        <p class="card-text">Aqui será mostrado as caracteristicas mais relevantes dos<br>
+                            nossos profissionais nas suas respectivas áreas de atuação<br></p>
+                        <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+                    </div>
                 </div>
             </div>
-            <div class="card" style="width: 32rem;">
-                <object class="img"> </object>
-                <div class="card-body">
-                    <h5 class="card-title">Card de profissão</h5>
-                    <p class="card-text">Aqui será mostrado as caracteristicas relevantes dos nossos profissionais nas respectivas áreas.</p>
-                    <a href="#" class="btn btn-primary">confira nossos profissinais</a>
-                </div>
-            </div>
-            <div class="card" style="width: 32rem;">
-                <object class="img"> </object>
-                <div class="card-body">
-                    <h5 class="card-title">Card de profissão</h5>
-                    <p class="card-text">Aqui será mostrado as caracteristicas relevantes dos nossos profissionais nas respectivas áreas.</p>
-                    <a href="#" class="btn btn-primary">confira nossos profissinais</a>
-                </div>
-            </div>
-            <div class="card" style="width: 32rem;">
-                <object class="img"> </object>
-                <div class="card-body">
-                    <h5 class="card-title">Card de profissão</h5>
-                    <p class="card-text">Aqui será mostrado as caracteristicas relevantes dos nossos profissionais nas respectivas áreas.</p>
-                    <a href="#" class="btn btn-primary">confira nossos profissinais</a>
-                </div>
-            </div>
-            <div class="card" style="width: 32rem;">
-                <object class="img"> </object>
-                <div class="card-body">
-                    <h5 class="card-title">Card de profissão</h5>
-                    <p class="card-text">Aqui será mostrado as caracteristicas relevantes dos nossos profissionais nas respectivas áreas.</p>
-                    <a href="#" class="btn btn-primary">confira nossos profissinais</a>
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <object>
-    
-            </object>
         </div>
 
         <div class="titulo-col"> Profissão Y</div>
-        <div class="col-flex">
-            <div class="card" style="width: 32rem;">
-                <object class="img"> </object>
-                <div class="card-body">
-                    <h5 class="card-title">Card de profissão</h5>
-                    <p class="card-text">Aqui será mostrado as caracteristicas relevantes dos nossos profissionais nas respectivas áreas.</p>
-                    <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+        <div class="content-box" style="max-width: 100%;">
+            <div class="col-flex">
+                <div class="card" style="width: 26rem;">
+                    <object class="img"> </object>
+                    <div class="card-body">
+                        <h5 class="card-title">Card de profissão</h5>
+                        <p class="card-text">Aqui será mostrado as caracteristicas mais relevantes dos<br>
+                            nossos profissionais nas suas respectivas áreas de atuação<br></p>
+                        <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 32rem;">
-                <object class="img"> </object>
-                <div class="card-body">
-                    <h5 class="card-title">Card de profissão</h5>
-                    <p class="card-text">Aqui será mostrado as caracteristicas relevantes dos nossos profissionais nas respectivas áreas.</p>
-                    <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+                <div class="card" style="width: 26rem;">
+                    <object class="img"> </object>
+                    <div class="card-body">
+                        <h5 class="card-title">Card de profissão</h5>
+                        <p class="card-text">Aqui será mostrado as caracteristicas mais relevantes dos<br>
+                            nossos profissionais nas suas respectivas áreas de atuação<br></p>
+                        <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 32rem;">
-                <object class="img"> </object>
-                <div class="card-body">
-                    <h5 class="card-title">Card de profissão</h5>
-                    <p class="card-text">Aqui será mostrado as caracteristicas relevantes dos nossos profissionais nas respectivas áreas.</p>
-                    <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+                <div class="card" style="width: 26rem;">
+                    <object class="img"> </object>
+                    <div class="card-body">
+                        <h5 class="card-title">Card de profissão</h5>
+                        <p class="card-text">Aqui será mostrado as caracteristicas mais relevantes dos<br>
+                            nossos profissionais nas suas respectivas áreas de atuação<br></p>
+                        <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 32rem;">
-                <object class="img"> </object>
-                <div class="card-body">
-                    <h5 class="card-title">Card de profissão</h5>
-                    <p class="card-text">Aqui será mostrado as caracteristicas relevantes dos nossos profissionais nas respectivas áreas.</p>
-                    <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+                <div class="card" style="width: 26rem;">
+                    <object class="img"> </object>
+                    <div class="card-body">
+                        <h5 class="card-title">Card de profissão</h5>
+                        <p class="card-text">Aqui será mostrado as caracteristicas mais relevantes dos<br>
+                            nossos profissionais nas suas respectivas áreas de atuação<br></p>
+                        <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card" style="width: 32rem;">
-                <object class="img"> </object>
-                <div class="card-body">
-                    <h5 class="card-title">Card de profissão</h5>
-                    <p class="card-text">Aqui será mostrado as caracteristicas relevantes dos nossos profissionais nas respectivas áreas.</p>
-                    <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+                <div class="card" style="width: 26rem;">
+                    <object class="img"> </object>
+                    <div class="card-body">
+                        <h5 class="card-title">Card de profissão</h5>
+                        <p class="card-text">Aqui será mostrado as caracteristicas mais relevantes dos<br>
+                            nossos profissionais nas suas respectivas áreas de atuação<br></p>
+                        <a href="#" class="btn btn-primary">confira nossos profissinais</a>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="footnote">
+        CRIADO POR EQUIPE DE ENGENHARIA DE SOFTWARE II EDSON & EDSON
     </div>
 </body>
 </html>
