@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>chatpage - Getsamurais</title>
-
+    <title>notification page - Getsamurais</title>
     <style>
         .body{
             font-family:'Times New Roman', Times, serif;
@@ -81,6 +80,27 @@
             width: auto;
             background-color: blue;
             padding-bottom: 10px;
+        }
+        .group-not-item{
+            border-style: inset;
+            border-color: black;
+            border-radius: 10px;
+
+            margin: 10px;
+            padding-bottom: 10px;
+            width: auto;
+            text-wrap: wrap;
+        }
+        .not-title-theme{
+            color: white;
+            background-color: blue ;
+
+            border-color: black;
+            border-style: solid; 
+            border-radius: 5px;
+
+            padding-right: 5%;
+            padding-left: 5%;
         }
         .container-title{
             text-align: center;
@@ -182,85 +202,50 @@
             <object class="img-btn" data="chat-text.svg" style="rotate: 0 1 0 180deg;"></object> 
         </a>
         
-        <a href="notificationpage.html" class="bar-btn" style="cursor: pointer;"> 
+        <a class="bar-btn" style="cursor: pointer;"> 
             <object class="img-btn" data="bell.svg"></object> 
         </a>
     </div>
-    
+
     <div class="main-container">
-        <div class="sub-container" style="width: 20%;">
-            <div class="container-title"> Proposta </div>
-            <ul class="list-group" style="font-size: 26px;">
-                <li class="group-chat-item">
-                    <div style="color: white; text-wrap: wrap;"> Projeto de site responsivo</div>
-                    <div class="chat-content" style="padding: 15px;">
-                        <p> Tema: criação de site </p>
-                        Tecnologias e ferramentas:  
-                        <ul>
-                            <li>html;</li>
-                            <li>css;</li>
-                            <li>bootstrap.</li>
-                        </ul>
-                        <br>
-                        <p> Descrição: </p>
-                        O site deve ser responsivo, bem como consiga ser acessado e funcione corretamente em mobile devices, de tal forma que abranja a maior fatia de usuarios possíveis. 
-                        <p> <br>Pagamento: </p>
-                        Será pago $XXX,xx por hora trabalhada.
-                        <p> <br>Observações: </p>
-                        O site necessita seguir alguns padrões de design e de cores, que será fornecido posteriormente.
-                    </div>
-                </li>
-            </ul>
+        <div class="sub-container" style="width: 27%">
+            <div class="container-title" style="font-size: 48px;"> Coluna livre </div>
         </div>
-        <div class="sub-container" style="width: 55%">
-            <div class="container-title"> Conversas recentes com profissionais </div>
-            <ul class="list-group" style="font-size: 26px;">
-                <li class="group-chat-item">
-                    <span style="color: white;"> Conversa com programador frontend </span>
-                    <div class="chat-content" style="padding: 15px;">
-                        <p> Assunto: Orçamento de site </p>
-                        <p> Descrição: </p>
-                        O orçamento, juntamente com o tempo necessário para se estimar a criação do site já está disponivel para análise, favor entrar em contato para mais detalhes.
-                    </div>
-                </li>
-                <li class="group-chat-item">
-                    <span style="color: white;"> conversa com artista anônimo </span>
-                    <div class="chat-content" style="padding: 15px;">
-                        <p> Assunto: arte encomendada </p>
-                        <p> Descrição: </p>
-                        A peça já está sendo produzida, irei informar-lo quando a peça ficar pronta.
-                    </div>
-                </li>
-                <li class="group-chat-item">
-                    <span style="color: white;"> conversa com jardineiro </span>
-                    <div class="chat-content" style="padding: 15px;">
-                        <p> Assunto: minha planta não está produzindo flores </p>
-                        <p> Descrição: </p>
-                        Voçê deve adicionar periodicamente pequenas quantidades de fertilizante, bem como aguar a planta cerca de duas a três vezes ao dia, ainda mais com esse clor escaldante. 
-                    </div>
-                </li>
-                <li class="group-chat-item">
-                    <span style="color: white;"> conversa com vendedor anônimo </span>
-                    <div class="chat-content" style="padding: 15px;">
-                        <p> Assunto: venda de estoque parado </p>
-                        <p> Descrição: </p>
-                        Já vendi 77% da carga, agora irei tentar vender o restante ainda nesta sexta feira, irei enviar os comprovantes o quanto antes.
-                    </div>
-                </li>
-                <li class="group-chat-item">
-                    <span style="color: white;"> conversa com influencer Z </span>
-                    <div class="chat-content" style="padding: 15px;">
-                        <p> Assunto: adversiment </p>
-                        <p> Descrição: </p>
-                        Irei upar o video em breve, se necessário entre em contato comigo pelo chat.
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="sub-container" style="width: 20%">
-            <div class="container-title"> Coluna livre </div>
+        <div class="sub-container" style="width: 70%">
+            <div class="container-title" style="font-size: 48px;"> Notificações Recentes </div>
+            <div style="font-size: 40px;">
+                <div class="group-not-item">
+                    <div class="not-title-theme"> Pagamento aprovado: </div> 
+                    enviado XXX,xx para programador frontend
+                </div>
+                <div class="group-not-item">
+                    <div class="not-title-theme"> Pagamento sendo processado: </div>
+                    enviando XXX,xx para programador frontend
+                </div>
+                <div class="group-not-item">
+                    <div class="not-title-theme"> Atualização: </div> projeto site responsivo
+                </div>
+                <div class="group-not-item">
+                    <div class="not-title-theme"> Atualização: </div> projeto comercial
+                </div>
+                <div class="group-not-item">
+                    <div class="not-title-theme"> Projeto cancelado: </div> projeto de peça automotiva
+                </div>
+                <div class="group-not-item">
+                    <div class="not-title-theme"> Projeto Criado: </div> projeto site responsivo
+                </div>
+                <div class="group-not-item">
+                    <div class="not-title-theme"> Pagamento aprovado: </div> 
+                    enviado XX,xx para artista anônimo
+                </div>
+                <div class="group-not-item">
+                    <div class="not-title-theme"> Atualização: </div> projeto de arte conceitual
+                </div>
+                <div class="group-not-item">
+                    <div class="not-title-theme"> Atualização: </div> projeto de peça automotiva
+                </div>
+            </div>
         </div>
     </div>
-    
 </body>
 </html>
