@@ -4,215 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <title>notification page - Getsamurais</title>
-    <style>
-        .body{
-            font-family:'Times New Roman', Times, serif;
-        }
-        .barra{
-            background-color: #f4f4f4;
-            border-bottom: rgba(0, 0, 0, 0.131);
-            border-style: groove;
-
-            justify-content: center;
-            text-align: center;
-            width: 100%;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            display: flex;
-        }
-        .col-flex{
-            display: flex;
-            justify-content: space-around;
-            min-width: 2400px;
-        }
-        .card{
-            margin: 10px;
-        }
-        .chat-content{
-            text-align: left; 
-
-            border-style: solid;
-            border-color: #b9b9b9;
-            background-color: white; 
-            color: black;
-            text-wrap:wrap;
-        }
-        .main-container{
-            background-color: #b9b9b9;
-
-            display: flex;
-            justify-content: space-around;
-            margin: 10px;
-            border-radius: 5px;
-            height: 785px;
-        }
-        .sub-container{
-            background-color: #f4f4f4;
-
-            text-align: center;
-            align-self: center;
-            padding: 10px;
-            margin: 5px;
-            border-radius: 5px;
-            height: 98%;
-            
-            overflow: auto;
-            white-space: nowrap;
-        }
-        .content-box{
-            border-radius: 20px;
-            border-color: rgba(0, 0, 0, 0.354);
-            border-bottom-right-radius: 0;
-            border-bottom-left-radius: 0;
-            border-style: groove;
-
-            margin: 10px;
-            margin-bottom: 20px;
-            padding-top: 10px;
-
-            overflow: auto;
-            white-space: nowrap;
-        }
-        .group-chat-item{
-            margin: 2px;
-            border-radius: 5px;
-            width: auto;
-            background-color: blue;
-            padding-bottom: 10px;
-        }
-        .group-not-item{
-            border-style: inset;
-            border-color: black;
-            border-radius: 10px;
-
-            margin: 10px;
-            padding-bottom: 10px;
-            width: auto;
-            text-wrap: wrap;
-        }
-        .not-title-theme{
-            color: white;
-            background-color: blue ;
-
-            border-color: black;
-            border-style: solid; 
-            border-radius: 5px;
-
-            padding-right: 5%;
-            padding-left: 5%;
-        }
-        .container-title{
-            text-align: center;
-            font-size: 32px;
-            margin-bottom: 10px;
-        }
-        .subtext{
-            font-size: 26px;
-            margin-top: 8px;
-            padding-top: 30px;
-            min-width: 175px;
-            margin-right: 60px;
-        }
-        .titulo-col{
-            font-size: 32px;
-            padding-top: 32px;
-            padding-bottom: 8px;
-            margin-left: 20px;
-        }
-        .input{
-            text-align: left;
-            text-indent: 20px;
-            font-size: 24px;
-
-            border-radius: 7px;
-            margin: 20px;
-            min-width: 350px;
-            width: 50%;
-            height: 75px;
-            margin-top: 20px;
-            border-color: lightgray;
-        }
-        .inp-btn{
-            font-size: 24px;
-
-            border-radius: 7px;
-            margin: 20px;
-            margin-top: 20px;
-            margin-right: 60px;
-            width: 110px;
-            height: 75px;
-            
-            border-color: lightgray;
-            border-style: groove;
-        }
-        .bar-btn{
-            border-radius: 100%;
-            height: 100px;
-            min-width: 100px;
-
-            margin: 5px;
-            margin-right: 20px;
-            margin-left: 20px;
-            background-color: #f4f4f4;
-            border-color: rgb(104, 103, 103);
-            border-style: dotted;
-        }
-        .btn-primary{
-            text-align: center;
-            width: 60%;
-            padding: 10px;
-        }
-        .img-btn{
-            margin-top: 10px;
-            height: 70%;
-            width: 70%;
-        }
-        .img{
-            background-color: #b9b9b9;
-
-            border-top-right-radius: 5px;
-            border-top-left-radius: 5px;
-            border: none;
-            height: 180px;
-            width: 100%;
-        }
-        .icon-image{
-            height: 100%;
-            width: 100%;
-            border-radius: 100%;
-        }
-        .footnote{
-            text-align: center;
-            font-size: 30px;
-
-            margin: 42px;
-        }
-    </style>
 </head>
 <body class="body">
     <div class="barra">
-        <a class="bar-btn" style="cursor: pointer;"> <object class="icon-image" data="samurai_D.jpeg"></object> </a>
-        <a href="projectpage.html" class="bar-btn" style="cursor: pointer;"> 
-            <object class="img-btn" style="width: 100%; " data="plus-circle.svg"></object> 
-        </a>
+        
+        <div style=" margin-top: 10px;">
+            <a href="homepage.html" style="font-size: 50px; padding-left: 20px; color: black; text-decoration: none;">
+                GetSamurais
+            </a>
+        </div>
         
         <input class="input" placeholder="Buscar Freelancer">
         <button class="inp-btn">Buscar</button>
+
+        <a href="projectpage.html" class="bar-btn" style="cursor: pointer;"> 
+            <object class="img-btn" style="width: 100%; " data="plus-circle.svg"></object> 
+        </a>
         
         <a href="chatpage.html" class="bar-btn" style="cursor: pointer;"> 
             <object class="img-btn" data="chat-text.svg" style="rotate: 0 1 0 180deg;"></object> 
         </a>
         
-        <a class="bar-btn" style="cursor: pointer;"> 
+        <a href="notificationpage.html" class="bar-btn" style="cursor: pointer;"> 
             <object class="img-btn" data="bell.svg"></object> 
         </a>
+
+        <a class="bar-btn" style="cursor: pointer;"> <object class="icon-image"data="samurai_D.jpeg"></object> </a>
+        
     </div>
 
     <div class="main-container">
-        <div class="sub-container" style="width: 27%">
-            <div class="container-title" style="font-size: 48px;"> Coluna livre </div>
-        </div>
         <div class="sub-container" style="width: 70%">
             <div class="container-title" style="font-size: 48px;"> Notificações Recentes </div>
             <div style="font-size: 40px;">
