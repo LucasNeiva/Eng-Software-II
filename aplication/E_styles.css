@@ -264,12 +264,13 @@
     margin: 20px;
 }
 .project-button{
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
     color: white;
 
-    width: 33.33%;
+    width: 25%;
     padding: 20px;
+    margin: 5px;
     border-radius: 10px;
 }
 
