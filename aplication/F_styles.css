@@ -1,0 +1,295 @@
+/*declarações*/
+@font-face { 
+    font-family: "Samurai Blast";
+    src: url(custom_fonts/SamuraiBlast.woff); 
+}
+
+/*estruturas basicas*/
+.body{
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+    font-size: 48px;
+    text-align: center;
+
+    width: 100%;
+    padding-top: 20px;
+    
+    border-radius: 5px;
+    overflow: hidden;
+}
+.main-container{
+    background-color: #b9b9b9;
+
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    border-radius: 5px;
+    height: 785px;
+}
+.sub-container{
+    background-color: #f4f4f4;
+
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    height: 98%;
+    
+    overflow: auto;
+    white-space: nowrap;
+}
+.flex-container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    padding-top: 50px;
+    font-size: 40px;
+}
+.content-box{
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.354);
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-style: groove;
+
+    margin: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+
+    overflow: auto;
+    white-space: nowrap;
+}
+.subcol{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    width: 50%;
+}
+.col-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*elementos*/
+.barra{
+    background-color: #f4f4f4;
+    border-bottom: rgba(0, 0, 0, 0.131);
+    border-style: groove;
+
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    
+    display: flex;
+}
+.bar-btn{
+    border-radius: 100%;
+    height: 80px;
+    min-width: 80px;
+
+    margin: 5px;
+    margin-top: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #f4f4f4;
+    border-color: rgb(104, 103, 103);
+    border-style: double;
+}
+.input{
+    text-align: left;
+    text-indent: 20px;
+    font-size: 24px;
+
+    border-radius: 7px;
+    margin: 20px;
+    min-width: 350px;
+    width: 50%;
+    height: 75px;
+    
+    border-color: lightgray;
+}
+.inp-btn{
+    font-size: 24px;
+
+    border-radius: 7px;
+    margin: 20px;
+    
+    width: 110px;
+    height: 75px;
+    
+    border-color: lightgray;
+    border-style: groove;
+}
+.card{
+    margin: 10px;
+    text-wrap: wrap;
+}
+.chat-content{
+    text-align: left;
+    text-wrap:wrap;
+
+    border-style: solid;
+    border-color: #b9b9b9;
+    background-color: white; 
+    color: black;
+}
+.chat-box{
+    text-wrap:wrap;
+    
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #b9b9b9;
+    background-color: white; 
+
+    margin-top: 10px;
+    padding: 12px;
+    
+}
+.group-chat-item{
+    margin: 2px;
+    border-radius: 5px;
+    width: auto;
+    background-color: blue;
+    padding-bottom: 10px;
+}
+.group-not-item{
+    border-style: inset;
+    border-color: black;
+    border-radius: 10px;
+
+    margin: 10px;
+    padding-bottom: 10px;
+    
+    text-wrap: wrap;
+}
+.prof-list{
+    background-color: #bababa;
+    
+    text-wrap: wrap;
+    text-align: center;
+
+    height: 70%;
+    width: 80%; 
+
+    padding: 24px;
+    margin: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    border-radius: 10px;
+    overflow: auto;
+}
+
+/*texto e fontes*/
+.title{
+    font-size: 48px;
+    margin-top: 8px;
+    margin: 10px;
+}
+.container-title{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.element-title{
+    font-size: 56px;
+}
+.titulo-col{
+    font-size: 32px;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    margin-left: 20px;
+}
+.subtext{
+    font-size: 26px;
+    margin-top: 8px;
+    padding-top: 30px;
+    min-width: 175px;
+    margin-right: 60px;
+} 
+.not-title-theme{
+    color: white;
+    background-color: blue ;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-style:solid;
+    border-color: black;
+    
+    margin: -3px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.proj-text{
+    font-size: 32px;
+    text-wrap: wrap;
+}
+.footnote{
+    text-align: center;
+    font-size: 30px;
+
+    margin: 42px;
+}
+
+/*botões e clicaveis*/
+.btn-primary{
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+}
+.img-btn{
+    margin-top: 10px;
+    height: 70%;
+    width: 70%;
+}
+.image-button{
+    width: 450px;
+    height: 450px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 100%;
+    text-align: center;
+    border: none;
+}
+.prof-btn{
+    text-align: center;
+
+    border-radius: 10px;
+    height: 80px;
+    margin: 20px;
+}
+.project-button{
+    font-size: 32px;
+    text-align: center;
+    color: white;
+
+    width: 33.33%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*imagens e recursos*/
+.img{
+    background-color: #b9b9b9;
+
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: none;
+    height: 180px;
+    width: 100%;
+}
+.icon-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
