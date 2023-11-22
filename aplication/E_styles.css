@@ -87,19 +87,6 @@
     
     display: flex;
 }
-.bar-btn{
-    border-radius: 100%;
-    height: 80px;
-    min-width: 80px;
-
-    margin: 5px;
-    margin-top: 18px;
-    margin-right: 20px;
-    margin-left: 20px;
-    background-color: #f4f4f4;
-    border-color: rgb(104, 103, 103);
-    border-style: double;
-}
 .input{
     text-align: left;
     text-indent: 20px;
@@ -255,6 +242,19 @@
     text-align: center;
     width: 60%;
     padding: 10px;
+}
+.bar-btn{
+    border-radius: 100%;
+    height: 80px;
+    min-width: 80px;
+
+    margin: 5px;
+    margin-top: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #f4f4f4;
+    border-color: rgb(104, 103, 103);
+    border-style: double;
 }
 .img-btn{
     margin-top: 10px;

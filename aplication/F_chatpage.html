@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="F_styles.css">
     <title>chatpage - Getsamurais</title>
@@ -17,25 +18,63 @@
             </a>
         </div>
         
-        <input class="input" placeholder="Buscar Projetos">
+        <input class="input" placeholder="Buscar Freelancer">
         <button class="inp-btn">Buscar</button>
 
-        <a href="F_proposalpage.html" class="bar-btn" style="cursor: pointer;"> 
-            <object class="img-btn" style="width: 100%; " data="custom_images/plus-circle.svg"></object> 
-        </a>
+        <button class="bar-btn" onclick="window.location.href='F_proposalpage.html';">
+            <img src="custom_images/plus-circle.svg" height ="80%" width="80%">
+        </button>
         
-        <a href="F_chatpage.html" class="bar-btn" style="cursor: pointer;"> 
-            <object class="img-btn" data="custom_images/chat-text.svg" style="rotate: 0 1 0 180deg;"></object> 
-        </a>
-        
-        <a href="F_notificationpage.html" class="bar-btn" style="cursor: pointer;"> 
-            <object class="img-btn" data="custom_images/bell.svg"></object> 
-        </a>
+        <button class="bar-btn" onclick="window.location.href='F_chatpage.html';">
+            <img src="custom_images/chat-text.svg" height ="80%" width="80%" style="rotate: 0 1 0 180deg;">
+        </button>
+
+        <button class="bar-btn" data-bs-toggle="dropdown"> 
+            <img src="custom_images/bell.svg" height ="80%" width="80%">
+            <ul class="dropdown-menu" style="width: 45%;">
+                <div class="main-container">
+                    <div class="sub-container" style="width: 98%;">
+                        <div class="container-title" style="font-size: 48px;"> Notificações Recentes </div>
+                        <div class="col-flex">
+                            <div style="font-size: 40px;">
+                                <div class="group-not-item">
+                                    <div class="not-title-theme"> Pagamento aprovado: </div> 
+                                    recebeu XXX,xx de Empregador de Site
+                                </div>
+                                <div class="group-not-item">
+                                    <div class="not-title-theme"> Projeto encerrado: </div> 
+                                    Empregador de Site finalizou o projeto "Criação de Site", voçê será creditado de acordo.
+                                </div>
+                                <div class="group-not-item">
+                                    <div class="not-title-theme"> Pagamento aprovado: </div>
+                                    recebeu XXXX,xx de Empregador de página Web
+                                </div>
+                                <div class="group-not-item">
+                                    <div class="not-title-theme"> Projeto encerrado: </div> 
+                                    Empregador de página Web finalizou o projeto "Criação de página de perfil", voçê será creditado de acordo.
+                                </div>
+                                <div class="group-not-item">
+                                    <div class="not-title-theme"> Atualização: </div> projeto Criação de Site
+                                </div>
+                                <div class="group-not-item">
+                                    <div class="not-title-theme"> Projeto iniciado: </div> 
+                                    Empregador de Site lhe contratou para fazer o projeto "Criação de página de perfil", boa sorte!
+                                </div>
+                                <div class="group-not-item">
+                                    <div class="not-title-theme"> Projeto iniciado: </div> 
+                                    Empregador de página Web lhe contratou para fazer o projeto "Criação de página de perfil", boa sorte!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </button>
 
         <a href="F_profile.html" class="bar-btn" style="cursor: pointer;"> 
             <object class="icon-image" data="custom_images/samurai_D.jpeg"></object> 
         </a>
-        
+
     </div>
     
     <div class="main-container">
