@@ -100,18 +100,6 @@
     
     border-color: lightgray;
 }
-.inp-btn{
-    font-size: 24px;
-
-    border-radius: 7px;
-    margin: 20px;
-    
-    width: 110px;
-    height: 75px;
-    
-    border-color: lightgray;
-    border-style: groove;
-}
 .card{
     margin: 10px;
     text-wrap: wrap;
@@ -269,6 +257,18 @@
     border-radius: 100%;
     text-align: center;
     border: none;
+}
+.inp-btn{
+    font-size: 24px;
+
+    border-radius: 7px;
+    margin: 20px;
+    
+    width: 110px;
+    height: 75px;
+    
+    border-color: lightgray;
+    border-style: groove;
 }
 .prof-btn{
     text-align: center;
