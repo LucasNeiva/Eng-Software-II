@@ -167,6 +167,14 @@
     
     text-wrap: wrap;
 }
+.pop-filter{
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%; 
+    width: 100%; 
+    
+    border-radius: 20px;
+}
 .prof-list{
     background-color: #bababa;
     
@@ -251,6 +259,19 @@
 }
 
 /*botões e clicaveis*/
+.btn-filter{
+    background-color: blue;
+    color: white;
+
+    border-radius: 15px;
+    text-align: center;
+
+    padding: 5px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    width: 16.66%;
+}
 .btn-primary{
     text-align: center;
     width: 60%;

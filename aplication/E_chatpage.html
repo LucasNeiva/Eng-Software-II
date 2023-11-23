@@ -18,8 +18,21 @@
             </a>
         </div>
         
-        <input class="input" placeholder="Buscar Freelancer">
-        <button class="inp-btn">Buscar</button>
+        <input class="input" placeholder="Buscar Freelancer" style="border-bottom-right-radius: 0; border-top-right-radius: 0;">
+        <button class="inp-btn" style="margin-left: -20px; border-radius: 0;">Buscar</button>
+        <button class="inp-btn" style="margin-left: -20px; border-bottom-left-radius: 0; border-top-left-radius: 0;" 
+        popovertarget="myheader">Filtrar</button>
+
+        <h1 class="pop-filter" popover id="myheader">
+            <ul style="display: flex;width: 98.5%;">
+                <button class="btn-filter"> Mais Recente  </button>
+                <button class="btn-filter"> Mais Antigo  </button>
+                <button class="btn-filter"> Por Avaliação  </button>
+                <button class="btn-filter"> Por Preço  </button>
+                <button class="btn-filter"> Por Horário  </button>
+                <button class="btn-filter"> Por Região </button>
+            </ul>
+        </h1>
 
         <button class="bar-btn" onclick="window.location.href='E_projectpage.html';">
             <img src="custom_images/plus-circle.svg" height ="80%" width="80%">

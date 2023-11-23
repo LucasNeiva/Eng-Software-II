@@ -18,9 +18,22 @@
             </a>
         </div>
         
-        <input class="input" placeholder="Buscar Freelancer">
-        <button class="inp-btn">Buscar</button>
-        
+        <input class="input" placeholder="Buscar Freelancer" style="border-bottom-right-radius: 0; border-top-right-radius: 0;">
+        <button class="inp-btn" style="margin-left: -20px; border-radius: 0;">Buscar</button>
+        <button class="inp-btn" style="margin-left: -20px; border-bottom-left-radius: 0; border-top-left-radius: 0;" 
+        popovertarget="myheader">Filtrar</button>
+
+        <h1 class="pop-filter" popover id="myheader">
+            <ul style="display: flex;width: 98.5%;">
+                <button class="btn-filter"> Mais Recente  </button>
+                <button class="btn-filter"> Mais Antigo  </button>
+                <button class="btn-filter"> Por Avaliação  </button>
+                <button class="btn-filter"> Por Preço  </button>
+                <button class="btn-filter"> Por Horário  </button>
+                <button class="btn-filter"> Por Região </button>
+            </ul>
+        </h1>
+
         <button class="bar-btn" onclick="window.location.href='F_chatpage.html';">
             <img src="custom_images/chat-text.svg" height ="80%" width="80%" style="rotate: 0 1 0 180deg;">
         </button>
@@ -75,7 +88,7 @@
     <!--consertar-->
     <div style="display: flex; justify-content: center;height: 829px; margin-top: 10px;">
         <div style="width: 65%; align-items: center;">
-            <div class="titulo-col" style="font-size: 52px; font-weight: 600;margin-top: -30px;"> Projetos Recomendados:</div>
+            <div class="titulo-col" style="font-size: 52px; font-weight: 600;margin-top: -30px; text-align: center;"> Projetos Recomendados:</div>
             <div id="carouselExample" class="carousel slide" data-bs-theme="dark" style="margin-top: -15px;">
                 <div class="carousel-inner" style="background-color: darkgrey; border-radius: 10px;">
                     <div class="carousel-item active">
@@ -145,7 +158,7 @@
         </div>
     
         <div style="width: 35%;">
-            <div class="titulo-col" style="font-size: 40px; font-weight: 550; margin-top: -15px;"> Projetos de XXXXXXXX:</div>
+            <div class="titulo-col" style="font-size: 40px; font-weight: 550; margin-top: -15px;text-align: center;"> Projetos de XXXXXXXX:</div>
             <div class="content-box" style="height: 89.5%; margin-top: -10px; border-top-right-radius: 0; border-bottom-left-radius: 20px;">
                 <div style="align-items: center; flex-direction: column; margin-top: -10px;">
                     <div class="card" style="width: 95%;">
