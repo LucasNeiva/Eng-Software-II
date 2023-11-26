@@ -125,6 +125,11 @@
     padding: 12px;
     
 }
+.img-card-frame{
+    padding: 16px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
 .group-chat-item{
     margin: 2px;
     border-radius: 5px;
@@ -176,6 +181,9 @@
     font-size: 48px;
     margin-top: 8px;
     margin: 10px;
+}
+.card-title{
+    font-size: 24px;
 }
 .container-title{
     text-align: center;
