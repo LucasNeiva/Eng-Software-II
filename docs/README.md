@@ -45,7 +45,7 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
 
 - Frontend: React (Eficiente para Renderização)
 - Backend: NodeJS (Escalável e Flexível)
-- Banco de Dados: MongoDB (Bom para Escala e Desempenho)
+- Banco de Dados: MongoDB (Bom para Escala e Desempenho) e Oracle
 - Hospedagem: AWS (Confiável e Flexível)
 
 ## Monetização:
