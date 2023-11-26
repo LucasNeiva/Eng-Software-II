@@ -36,17 +36,16 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
 ## Requisitos do Sistema (MVP):
 
 - Criação de Perfis com Portfólios, Habilidades, Reputação e Valores
-- Busca Avançada e Filtros para Vagas e Freelancers
+- Busca Avançada e Filtros para Projetos e Freelancers
 - Envio e Gerenciamento de Propostas
-- Comunicação via Chat e Videoconferência
-- Ferramentas de Gerenciamento de Projetos: Tarefas, Cronograma e Armazenamento de Arquivos
+- Comunicação via Chat
 - Gateway de Pagamentos Integrado
 
 ## Tecnologias:
 
 - Frontend: React (Eficiente para Renderização)
 - Backend: NodeJS (Escalável e Flexível)
-- Banco de Dados: MongoDB (Bom para Escala e Desempenho)
+- Banco de Dados: MongoDB (Bom para Escala e Desempenho) e Oracle
 - Hospedagem: AWS (Confiável e Flexível)
 
 ## Monetização:
@@ -56,8 +55,6 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
  - *Taxa Fixa por Projeto*: Uma taxa fixa é cobrada por projeto concluído, garantindo previsibilidade nos ganhos dos freelancers.
 
  - *Publicidade e Patrocínio de Vagas*: Empresas podem promover projetos em destaque para freelancers, gerando uma fonte adicional de receita.
-
- - *Serviços Adicionais Pagos*: Oferecemos serviços extras, como revisão de portfólios e consultoria, disponíveis para freelancers a um custo adicional.
 
 ## Métricas-Chave:
 
@@ -82,8 +79,6 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
 ## Estratégia de Lançamento:
 
 - Cadastro Gratuito por 1 Mês Após o Lançamento
-- Ofertas Exclusivas para Empresas que Tragam Equipes de Freelancers
-- Marketing de Influenciadores e Promoções nas Redes Sociais
 
 ## Riscos e Mitigação:
 
