@@ -4,49 +4,37 @@ class Usuário {
   - id: int
   - nome: string
   - email: string
-  + logIn(): void
-  + logOut(): void
+  - senha: string
+  - dataDeCadastro: date
 }
 
 class Freelancer {
   - skills: string[]
+  - precoHora: float
   - reputação: int
   - portfolio: string
-  + enviarProposta(vaga: Vaga, valor: float): void
 }
 
-class Empresa {
-  - vagas_abertas: Vaga[]
-  + criarVaga(titulo: string, descricao: string, remuneracao: float): Vaga
+class Cliente {
+  - tipo: string
 }
 
-class Administrador {
-  + gerenciarUsuários(): void
-}
-
-class Vaga {
+class Moderador {
   - id: int
-  - titulo: string
-  - descricao: string
-  - remuneração: float
-  + fecharVaga(): void
-  + receberProposta(proposta: Proposta): void
 }
 
 class Proposta {
   - id: int
-  - freelancer: Freelancer
-  - vaga: Vaga
   - valor: float
   - status: string
-  + aceitarProposta(): void
 }
 
 class Projeto {
   - id: int
   - nome: string
-  - empresa: Empresa
-  + adicionarMembro(usuario: Usuário): void
+  - descricao: string
+  - dataDeCriacao: date
+  - status: string
 }
 
 class Pagamento {
@@ -54,38 +42,39 @@ class Pagamento {
   - valor: float
   - tipo: string
   - status: string
-  - projeto: Projeto
-  + efetuarPagamento(): void
 }
 
-class Mensagem {
+class Chat {
   - id: int
   - texto: string
   - remetente: Usuário
   - destinatário: Usuário
-  + enviarMensagem(destinatario: Usuário, texto: string): void
 }
 
-class Feedback {
-  - avaliação: int
-  - comentário: string
-  - usuário: Usuário
-  + deixarFeedback(avaliacao: int, comentario: string): void
+class Avaliacao {
+    - id: int
+    - Classificação: int
+    - Comentário: string
+    - dataDaAvaliação: date
 }
 
-Usuário <|-- Administrador
-Usuário <|-- Empresa
+Usuário <|-- Moderador
+Usuário <|-- Cliente
 Usuário <|-- Freelancer
 
+Avaliacao --> Freelancer: Refere-se
+Avaliacao --> Projeto: Refere-se
 
+Cliente --> Avaliacao: Faz
+Proposta --> Projeto: Pertence a
 Freelancer --> Proposta: Faz Proposta
-Empresa --> Proposta: Recebe Proposta
 Freelancer --> Projeto: Participa em
-Empresa --> Projeto: Inicia
-Administrador -- Usuário: Gerencia
-Projeto -- Pagamento: Realiza Pagamento
-Projeto -- Feedback: Recebe Feedback
-Mensagem -- Usuário: Envia Mensagem
-Vaga "1..N" -- "1" Projeto: Tem Vagas
+Cliente --> Projeto: Cria
+Chat --> Projeto: Pertence a
+Moderador --> Projeto: Modera
+Pagamento --> Projeto: Pertence a
+Cliente --> Pagamento: Envia
+Pagamento --> Freelancer: Recebe
 
+Usuário -- Chat: Participa em
 @enduml
