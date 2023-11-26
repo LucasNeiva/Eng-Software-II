@@ -54,7 +54,7 @@
     border-color: rgba(0, 0, 0, 0.354);
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-    border-style: groove;
+    border-style: solid;
 
     margin: 10px;
     margin-bottom: 20px;
@@ -171,9 +171,11 @@
     justify-content: center;
     align-items: center;
     margin-top: 7%; 
-    width: 100%; 
+    width: 99.8%; 
     
     border-radius: 20px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
     overflow: hidden;
 }
 .prof-list{

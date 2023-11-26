@@ -105,13 +105,19 @@
     margin: 10px;
 }
 .image-button{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
     width: 450px;
     height: 450px;
+
     margin-top: 16px;
     margin-bottom: 16px;
     border-radius: 100%;
-    text-align: center;
+    
     border: none;
+    overflow: hidden;
 }
 
 /*imagens e recursos*/
