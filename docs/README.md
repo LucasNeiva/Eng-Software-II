@@ -56,8 +56,6 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
 
  - *Publicidade e Patrocínio de Vagas*: Empresas podem promover projetos em destaque para freelancers, gerando uma fonte adicional de receita.
 
- - *Serviços Adicionais Pagos*: Oferecemos serviços extras, como revisão de portfólios e consultoria, disponíveis para freelancers a um custo adicional.
-
 ## Métricas-Chave:
 
 - Taxa de Conversão de Visitantes em Cadastros: Meta >25%
