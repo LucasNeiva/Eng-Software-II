@@ -79,8 +79,6 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
 ## Estratégia de Lançamento:
 
 - Cadastro Gratuito por 1 Mês Após o Lançamento
-- Ofertas Exclusivas para Empresas que Tragam Equipes de Freelancers
-- Marketing de Influenciadores e Promoções nas Redes Sociais
 
 ## Riscos e Mitigação:
 
