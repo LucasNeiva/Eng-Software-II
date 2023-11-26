@@ -1,4 +1,4 @@
-@startuml
+@startuml Conceitual
 
 class Usuário {
   - id: int
