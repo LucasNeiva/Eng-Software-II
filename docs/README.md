@@ -36,10 +36,9 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
 ## Requisitos do Sistema (MVP):
 
 - Criação de Perfis com Portfólios, Habilidades, Reputação e Valores
-- Busca Avançada e Filtros para Vagas e Freelancers
+- Busca Avançada e Filtros para Projetos e Freelancers
 - Envio e Gerenciamento de Propostas
-- Comunicação via Chat e Videoconferência
-- Ferramentas de Gerenciamento de Projetos: Tarefas, Cronograma e Armazenamento de Arquivos
+- Comunicação via Chat
 - Gateway de Pagamentos Integrado
 
 ## Tecnologias:
