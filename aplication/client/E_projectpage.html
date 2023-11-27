@@ -5,34 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="E_styles.css">
     <title>project page - Getsamurais</title>
 </head>
 <body class="body">
     <div class="barra">
         
         <div style="margin: 5px;">
-            <a class="bar-title" href="homepage.html">
+            <a class="bar-title" href="E_homepage.html">
                 GetSamurais
                 <div class="bar-subtext"> Enterprise user </div>
             </a>
         </div>
         
         <input class="input" placeholder="Buscar Freelancer" style="border-bottom-right-radius: 0; border-top-right-radius: 0;">
-        <button class="inp-btn" style="margin-left: -20px; border-radius: 0; background-color: #F7F7F7;">Buscar</button>
-        <button class="inp-btn" style="margin-left: -20px; border-bottom-left-radius: 0; border-top-left-radius: 0; background-color: #F7F7F7;" 
-        popovertarget="myheader">Filtrar</button>
-
-        <div class="pop-filter" popover id="myheader" style="position: absolute; height: 10%;">
-            <ul style="display: flex;width: 98.5%;">
-                <button class="btn-filter"> Mais Recente  </button>
-                <button class="btn-filter"> Mais Antigo  </button>
-                <button class="btn-filter"> Por Avaliação  </button>
-                <button class="btn-filter"> Por Preço  </button>
-                <button class="btn-filter"> Por Horário  </button>
-                <button class="btn-filter"> Por Região </button>
-            </ul>
-        </div>
+        <button class="inp-btn" onclick="window.location.href='E_search_freelancer.html';"
+        style="margin-left: -20px; border-bottom-left-radius: 0; border-top-left-radius: 0; background-color: #F7F7F7;">buscar</button>
 
         <button class="bar-btn" onclick="window.location.href='E_projectpage.html';" style="background-color: #0B5DC0;">
             <img src="../custom_images/inbox.svg" height ="80%" width="80%">
@@ -102,7 +90,7 @@
             <div class="sub-container" style="width: 100%;">
                 <ul class="list-group" style="font-size: 26px;">
                     <li class="group-chat-item">
-                        <div style="color: white; text-wrap: wrap;"> Projeto criação de loja online</div>
+                        <div style="color: white;"> Projeto criação de loja online</div>
                         <div class="chat-content" style="padding: 15px;">
                             <p> Nome do projeto: Criação de Loja Online </p>
                             
@@ -120,9 +108,14 @@
                     </li>
                 </ul>
             </div>
-            <button class="project-button" onclick="window.location.href='../payment.html';" style="background-color: blue; width: 90%; margin: 20px;">
-                finalizar projeto
-            </button>
+            <div style="display: flex;">
+                <button class="project-button" onclick="window.location.href='#';" style="background-color: blue; width: 45%; margin: 20px;">
+                    Editar projeto
+                </button>
+                <button class="project-button" onclick="window.location.href='../payment.html';" style="background-color: blue; width: 45%; margin: 20px;">
+                    Finalizar projeto
+                </button>
+            </div>
         </div>
 
         <div style="width: 60%; margin-top: 3px; overflow: auto;">
@@ -285,7 +278,7 @@
                     
                     <ul class="list-group" style="font-size: 26px;">
                         <li class="group-chat-item">
-                            <div style="color: white; text-wrap: wrap;"> José Maria de Barros </div>
+                            <div style="color: white; "> José Maria de Barros </div>
                             <div class="chat-content" style="padding: 15px;">
                                 <ul>
                                     <li> Enviado: 26/09/2023 </li>
@@ -299,7 +292,7 @@
         
                     <ul class="list-group" style="font-size: 26px;">
                         <li class="group-chat-item">
-                            <div style="color: white; text-wrap: wrap;"> Catarina Romanovich </div>
+                            <div style="color: white;"> Catarina Romanovich </div>
                             <div class="chat-content" style="padding: 15px;">
                                 <ul>
                                     <li> Enviado: 25/09/2023 </li>
@@ -313,7 +306,7 @@
         
                     <ul class="list-group" style="font-size: 26px;">
                         <li class="group-chat-item">
-                            <div style="color: white; text-wrap: wrap;"> José Maria de Barros </div>
+                            <div style="color: white;"> José Maria de Barros </div>
                             <div class="chat-content" style="padding: 15px;">
                                 <ul>
                                     <li> Enviado: 26/09/2023 </li>
@@ -327,7 +320,7 @@
 
                     <ul class="list-group" style="font-size: 26px;">
                         <li class="group-chat-item">
-                            <div style="color: white; text-wrap: wrap;"> Marcos Dueine Jonso </div>
+                            <div style="color: white;"> Marcos Dueine Jonso </div>
                             <div class="chat-content" style="padding: 15px;">
                                 <ul>
                                     <li> Enviado: 23/09/2023 </li>
@@ -341,7 +334,7 @@
 
                     <ul class="list-group" style="font-size: 26px;">
                         <li class="group-chat-item">
-                            <div style="color: white; text-wrap: wrap;"> Arthur Motter </div>
+                            <div style="color: white;"> Arthur Motter </div>
                             <div class="chat-content" style="padding: 15px;">
                                 <ul>
                                     <li> Enviado: 23/09/2023 </li>
