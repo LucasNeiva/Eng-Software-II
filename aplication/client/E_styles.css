@@ -1,9 +1,8 @@
 /*declarações*/
 @font-face { 
     font-family: "Samurai Blast";
-    src: url(custom_fonts/SamuraiBlast.woff); 
+    src: url(../custom_fonts/SamuraiBlast.woff); 
 }
-
 /*estruturas basicas*/
 .body{
     font-family:'Times New Roman', Times, serif;
