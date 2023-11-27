@@ -147,6 +147,26 @@
     
     text-wrap: wrap;
 }
+.proj-container{
+    text-align: start; 
+    text-indent: 15px;
+
+    display: table-row;  
+    width: 50%;
+}
+.list-proj{
+    font-size: 24px;
+    text-wrap: wrap;
+
+    background-color: #F7F7F7; 
+    border-color: #0B5DC0; 
+
+    border-style: solid;
+    border-radius: 10px;
+    overflow: hidden;
+
+    margin: 10px;
+}
 .pop-filter{
     justify-content: center;
     align-items: center;
@@ -262,6 +282,25 @@
     text-align: center;
     width: 60%;
     padding: 10px;
+}
+.btn-list-proj{
+     background-color: #0B5DC0; 
+     color: #FFFFFF; 
+     
+     border: none;
+     width: 50%;
+     padding: 10px;
+     margin: -2px;
+}
+.btn-go-chat{
+    background-color: #0B5DC0; 
+    color: white; 
+    
+    margin: 10px; 
+    margin-bottom: 0px;
+    width: 95%; 
+    border-radius: 10px;
+    border-color: #0B5DC0;
 }
 .bar-btn{
     border-radius: 100%;

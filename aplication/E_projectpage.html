@@ -35,7 +35,7 @@
         </div>
 
         <button class="bar-btn" onclick="window.location.href='E_projectpage.html';" style="background-color: #0B5DC0;">
-            <img src="custom_images/plus-circle.svg" height ="80%" width="80%">
+            <img src="custom_images/inbox.svg" height ="80%" width="80%">
         </button>
         
         <button class="bar-btn" onclick="window.location.href='E_chatpage.html';" style="background-color: #0B5DC0;">
@@ -94,120 +94,268 @@
     </div>
 
     <div class="main-container">
-        <div class="sub-container" style="width: 20%">
-            <div class="container-title"> Propostas </div>
-            <ul class="list-group" style="font-size: 26px;">
-                <li class="group-chat-item">
-                    <div style="color: white; text-wrap: wrap;"> Dev Backend</div>
-                    <div class="chat-content" style="padding: 15px;">
-                        <p> Tema: criação de aplicação </p>
-                        Tecnologias e ferramentas:  
-                        <ul>
-                            <li>Java;</li>
-                            <li>C#.</li>
-                        </ul>
-                        <br>
-                        <p> Descrição: </p>
-                        Desenvolvo aplicações integradas para desktop.
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="list-group" style="font-size: 26px;">
-                <li class="group-chat-item">
-                    <div style="color: white; text-wrap: wrap;"> Dev Mobile</div>
-                    <div class="chat-content" style="padding: 15px;">
-                        <p> Tema: adaptação de apps </p>
-                        Tecnologias e ferramentas:  
-                        <ul>
-                            <li>Java;</li>
-                            <li>Kotlin;</li>
-                            <li>Swift.</li>
-                        </ul>
-                        <br>
-                        <p> Descrição: </p>
-                        Desenvolvo e adapto aplicações para o mundo mobile.
-                    </div>
-                </li>
-            </ul>
-
-            <ul class="list-group" style="font-size: 26px;">
-                <li class="group-chat-item">
-                    <div style="color: white; text-wrap: wrap;"> BD Master</div>
-                    <div class="chat-content" style="padding: 15px;">
-                        <p> Tema: Banco de dados </p>
-                        Tecnologias e ferramentas:  
-                        <ul>
-                            <li>SQL Sever;</li>
-                            <li>Oracle;</li>
-                            <li>MariaDB;</li>
-                            <li>MongoDB;</li>
-                            <li>Postgres SQL.</li>
-                        </ul>
-                        <br>
-                        <p> Descrição: </p>
-                        Crio, manipulo e mantenho banco de dados para uma aplicação.
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div style="width: 55%; margin-top: 50px; overflow: hidden;">
-            <div style="margin: 5px; display: flex;justify-content: center; align-items: center;">
-                <button class="project-button" style="background-color: red;"> 
-                    deletar projeto
-                </button>
-                <button class="project-button" onclick="window.location.href='payment.html';" style="background-color: blue; ">
-                    finalizar projeto
-                </button>
-                <button class="project-button" style="background-color: green;">
-                    criar projeto
-                </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="width: 30%;">
+            <div class="offcanvas-header">
+                <div class="container-title" style="text-align: left;"> Detalhes do Projeto </div>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
+            <div class="sub-container" style="width: 100%;">
+                <ul class="list-group" style="font-size: 26px;">
+                    <li class="group-chat-item">
+                        <div style="color: white; text-wrap: wrap;"> Projeto criação de loja online</div>
+                        <div class="chat-content" style="padding: 15px;">
+                            <p> Nome do projeto: Criação de Loja Online </p>
+                            
+                            <ul>
+                                <li> Data de Publicação: 23/09/2023 </li>
+                                <li> Data de Conclusão: Não concluído </li>
+                                <li> Preço: R$5.000,00 </li>
+                            </ul>
+                            <br>
+                            <p> Descrição: </p>
+                            Criação de loja para venda de roupas online. 
+                            O site deve permitir uma pessoa navegar por todo o catálogo disponível e adicionar itens ao carrinho. 
+                            Deve permitir a compra por meio de PIX, boleto, cartão de crédito (parcelado ou à vista) e Paypal.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button class="project-button" onclick="window.location.href='payment.html';" style="background-color: blue; width: 90%; margin: 20px;">
+                finalizar projeto
+            </button>
+        </div>
+
+        <div style="width: 60%; margin-top: 3px; overflow: auto;">
             <div class="sub-container" style=" height:85%;">
-                <div class="col-flex" style="border-style: solid; border-radius: 20px;">
-                    <div class="container-title" style="margin-top: 20px;"> Nome do projeto: <br> XXXXXXXXXX</div>
-                    <div class="container-title" style="margin-top: 20px;"> Preço do projeto: <br> XXXXXXX,xx</div>
-                </div>
-                <div class="proj-text" style="margin-top: 40px; border-style: solid; border-radius: 20px;">
-                    Tempo estimado: <br> DD/MM/YYYY
-                </div>
-                <div class="proj-text" style="margin-top: 40px; border-style: solid; border-radius: 20px;">
-                    <div style="margin-top: 15px;"> Descrição: </div>
-                    <div style="text-align: left; margin: 15px;">
-                        Descrição é o mesmo que detalhar, mostrar ou tornar conhecidas as características de algo ou alguém,
-                        o que pode ser feito por via oral, textual ou visual.
-                        A descrição pode estar presente numa conversa, num texto ou numa imagem.
-                        Com exemplos, fica mais fácil entender.
+
+                <div class="container-title"> Meus Projetos </div>
+                <div class="list-proj">
+                    <div style="display: flex;">
+                        <div class="proj-container">
+                            <div style="margin-top: 10px; margin-bottom: 5px;">
+                                Projeto: Criação de loja online
+                            </div>
+                            <div style="margin-top: 10px; margin-bottom: 20px;">
+                                Data de publicação: 23/09/2023
+                            </div>
+                        </div>
+                        <div class="proj-container">
+                            <div style="margin-top: 10px; margin-bottom: 5px;">
+                                Preço: R$5.000,00
+                            </div>
+                            <div style="margin-top: 10px; margin-bottom: 20px;">
+                                Status: Em andamento
+                            </div>
+                        </div>
                     </div>
+                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
+                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> Ver Propostas </button>
+                </div>
+
+                <div class="list-proj">
+                    <div style="display: flex;">
+                        <div class="proj-container">
+                            <div style="margin-top: 10px; margin-bottom: 5px;">
+                                Projeto: Tradução de Documento Técnico para Inglês
+                            </div>
+                            <div style="margin-top: 10px; margin-bottom: 20px;">
+                                Data de publicação: 08/05/2023
+                            </div>
+                        </div>
+                        <div class="proj-container">
+                            <div style="margin-top: 10px; margin-bottom: 5px;">
+                                Preço: R$1.200,00
+                            </div>
+                            <div style="margin-top: 10px; margin-bottom: 20px;">
+                                Status: Em andamento
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
+                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> Ver Propostas </button>
+                </div>
+
+                <div class="list-proj">
+                    <div style="display: flex;">
+                        <div class="proj-container">
+                            <div style="margin-top: 10px; margin-bottom: 5px;">
+                                Projeto: Edição de Vídeo Promocional para Mídia Social
+                            </div>
+                            <div style="margin-top: 10px; margin-bottom: 20px;">
+                                Data de publicação: 22/04/2023
+                            </div>
+                        </div>
+                        <div class="proj-container">
+                            <div style="margin-top: 10px; margin-bottom: 5px;">
+                                Preço: R$600,00
+                            </div>
+                            <div style="margin-top: 10px; margin-bottom: 20px;">
+                                Status: Concluído
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
+                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> Ver Propostas </button>
+                </div>
+
+                <div class="list-proj">
+                    <div style="display: flex;">
+                        <div class="proj-container">
+                            <div style="margin-top: 10px; margin-bottom: 5px;">
+                                Projeto: Decoração para Loja de Roupas
+                            </div>
+                            <div style="margin-top: 10px; margin-bottom: 20px;">
+                                Data de publicação: 12/03/2023
+                            </div>
+                        </div>
+                        <div class="proj-container">
+                            <div style="margin-top: 10px; margin-bottom: 5px;">
+                                Preço: R$5.000,00
+                            </div>
+                            <div style="margin-top: 10px; margin-bottom: 20px;">
+                                Status: Concluído
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
+                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> Ver Propostas </button>
+                </div>
+
+                <div class="list-proj">
+                    <div style="display: flex;">
+                        <div class="proj-container">
+                            <div style="margin-top: 10px; margin-bottom: 5px;">
+                                Projeto: Design de Logo para Nova Marca de Moda Sustentável
+                            </div>
+                            <div style="margin-top: 10px; margin-bottom: 20px;">
+                                Data de publicação: 05/03/2023
+                            </div>
+                        </div>
+                        <div class="proj-container">
+                            <div style="margin-top: 10px; margin-bottom: 5px;">
+                                Preço: R$500,00
+                            </div>
+                            <div style="margin-top: 10px; margin-bottom: 20px;">
+                                Status: Concluído
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
+                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> Ver Propostas </button>
+                </div>
+
+                <div class="list-proj">
+                    <div style="display: flex;">
+                        <div class="proj-container">
+                            <div style="margin-top: 10px; margin-bottom: 5px;">
+                                Projeto: Planta para Loja de Roupas
+                            </div>
+                            <div style="margin-top: 10px; margin-bottom: 20px;">
+                                Data de publicação: 05/03/2023
+                            </div>
+                        </div>
+                        <div class="proj-container">
+                            <div style="margin-top: 10px; margin-bottom: 5px;">
+                                Preço: R$1.800,00
+                            </div>
+                            <div style="margin-top: 10px; margin-bottom: 20px;">
+                                Status: Concluído
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
+                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> Ver Propostas </button>
+                </div>
+
+            </div>
+            <div style="margin: 5px; display: flex;justify-content: center; align-items: center;">
+                <button class="project-button" style="background-color: green;" onclick="window.location.href='E_new_project.html';">
+                    novo projeto
+                </button>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <div class="container-title"> Propostas </div>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="sub-container" style="width: 100%">
+                    
+                    <ul class="list-group" style="font-size: 26px;">
+                        <li class="group-chat-item">
+                            <div style="color: white; text-wrap: wrap;"> José Maria de Barros </div>
+                            <div class="chat-content" style="padding: 15px;">
+                                <ul>
+                                    <li> Enviado: 26/09/2023 </li>
+                                    <li> Preço: R$4.500,00 </li>
+                                    <li> Prazo: 60 dias </li>
+                                </ul>
+                                <button class="btn-go-chat"> ir para conversa </button>
+                            </div>
+                        </li>
+                    </ul>
+        
+                    <ul class="list-group" style="font-size: 26px;">
+                        <li class="group-chat-item">
+                            <div style="color: white; text-wrap: wrap;"> Catarina Romanovich </div>
+                            <div class="chat-content" style="padding: 15px;">
+                                <ul>
+                                    <li> Enviado: 25/09/2023 </li>
+                                    <li> Preço: R$6.000,00 </li>
+                                    <li> Prazo: 90 dias </li>
+                                </ul>
+                                <button class="btn-go-chat"> ir para conversa </button>
+                            </div>
+                        </li>
+                    </ul>
+        
+                    <ul class="list-group" style="font-size: 26px;">
+                        <li class="group-chat-item">
+                            <div style="color: white; text-wrap: wrap;"> José Maria de Barros </div>
+                            <div class="chat-content" style="padding: 15px;">
+                                <ul>
+                                    <li> Enviado: 26/09/2023 </li>
+                                    <li> Preço: R$4.500,00 </li>
+                                    <li> Prazo: 60 dias </li>
+                                </ul>
+                                <button class="btn-go-chat"> ir para conversa </button>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="list-group" style="font-size: 26px;">
+                        <li class="group-chat-item">
+                            <div style="color: white; text-wrap: wrap;"> Marcos Dueine Jonso </div>
+                            <div class="chat-content" style="padding: 15px;">
+                                <ul>
+                                    <li> Enviado: 23/09/2023 </li>
+                                    <li> Preço: R$5.500,00 </li>
+                                    <li> Prazo: 90 dias </li>
+                                </ul>
+                                <button class="btn-go-chat"> ir para conversa </button>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="list-group" style="font-size: 26px;">
+                        <li class="group-chat-item">
+                            <div style="color: white; text-wrap: wrap;"> Arthur Motter </div>
+                            <div class="chat-content" style="padding: 15px;">
+                                <ul>
+                                    <li> Enviado: 23/09/2023 </li>
+                                    <li> Preço: R$8.000,00 </li>
+                                    <li> Prazo: 15 dias </li>
+                                </ul>
+                                <button class="btn-go-chat"> ir para conversa </button>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
 
-        <div class="sub-container" style="width: 20%;">
-            <div class="container-title"> Detalhes do Projeto </div>
-            <ul class="list-group" style="font-size: 26px;">
-                <li class="group-chat-item">
-                    <div style="color: white; text-wrap: wrap;"> Projeto de site responsivo</div>
-                    <div class="chat-content" style="padding: 15px;">
-                        <p> Tema: criação de site </p>
-                        Tecnologias e ferramentas:  
-                        <ul>
-                            <li>html;</li>
-                            <li>css;</li>
-                            <li>bootstrap.</li>
-                        </ul>
-                        <br>
-                        <p> Descrição: </p>
-                        O site deve ser responsivo, bem como consiga ser acessado e funcione corretamente em mobile devices,
-                        de tal forma que abranja a maior fatia de usuarios possíveis. 
-                        <p> <br>Pagamento: </p>
-                        Será pago $XXX,xx por hora trabalhada.
-                        <p> <br>Observações: </p>
-                        O site necessita seguir alguns padrões de design e de cores, que será fornecido posteriormente.
-                    </div>
-                </li>
-            </ul>
-        </div>
     </div>
 </body>
 </html>
