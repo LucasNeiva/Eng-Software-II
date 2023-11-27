@@ -1,0 +1,80 @@
+@startuml Conceitual
+
+class Usuário {
+  - id: int
+  - nome: string
+  - email: string
+  - senha: string
+  - dataDeCadastro: date
+}
+
+class Freelancer {
+  - skills: string[]
+  - precoHora: float
+  - reputação: int
+  - portfolio: string
+}
+
+class Cliente {
+  - tipo: string
+}
+
+class Moderador {
+  - id: int
+}
+
+class Proposta {
+  - id: int
+  - valor: float
+  - status: string
+}
+
+class Projeto {
+  - id: int
+  - nome: string
+  - descricao: string
+  - dataDeCriacao: date
+  - status: string
+}
+
+class Pagamento {
+  - id: int
+  - valor: float
+  - tipo: string
+  - status: string
+}
+
+class Chat {
+  - id: int
+  - texto: string
+  - remetente: Usuário
+  - destinatário: Usuário
+}
+
+class Avaliacao {
+    - id: int
+    - Classificação: int
+    - Comentário: string
+    - dataDaAvaliação: date
+}
+
+Usuário <|-- Moderador
+Usuário <|-- Cliente
+Usuário <|-- Freelancer
+
+Avaliacao --> Freelancer: Refere-se
+Avaliacao --> Projeto: Refere-se
+
+Cliente --> Avaliacao: Faz
+Proposta --> Projeto: Pertence a
+Freelancer --> Proposta: Faz Proposta
+Freelancer --> Projeto: Participa em
+Cliente --> Projeto: Cria
+Chat --> Projeto: Pertence a
+Moderador --> Projeto: Modera
+Pagamento --> Projeto: Pertence a
+Cliente --> Pagamento: Envia
+Pagamento --> Freelancer: Recebe
+
+Usuário -- Chat: Participa em
+@enduml
