@@ -314,6 +314,14 @@
     border-color: rgb(104, 103, 103);
     border-style: double;
 }
+.filter-btn{
+    text-align: center;
+    text-wrap: wrap;
+
+    border-radius: 10px;
+    height: 50px;
+    margin: 5px;
+}
 .img-btn{
     margin-top: 10px;
     height: 70%;
