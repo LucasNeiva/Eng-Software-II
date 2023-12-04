@@ -1,7 +1,7 @@
 /*declarações*/
 @font-face { 
     font-family: "Samurai Blast";
-    src: url(custom_fonts/SamuraiBlast.woff); 
+    src: url(../custom_fonts/SamuraiBlast.woff); 
 }
 
 /*estruturas basicas*/
@@ -218,7 +218,7 @@
     color: black;
     text-decoration: none;
     font-family: Samurai Blast;
-    margin-left: 0px;
+    padding-left: 10px;
 }
 .bar-subtext{
     font-size: 20px; 
@@ -288,7 +288,7 @@
      color: #FFFFFF; 
      
      border: none;
-     width: 50%;
+     width: 100%;
      padding: 10px;
      margin: -2px;
 }
