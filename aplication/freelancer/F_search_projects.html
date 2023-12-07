@@ -81,7 +81,7 @@
     <div style="display: flex;">
         <div class="content-box" style="width: 25%; overflow: hidden;">
             <div class="filter-title"> Filtros: </div>
-            <div style="background-color: #F7F7F7;height: 700px; overflow: auto; white-space:nowrap;">
+            <div style="background-color: #F7F7F7;height: 725px; overflow: auto; white-space:nowrap;">
                 <div class="col-flex" style="display: grid; font-size: 28px; overflow: auto; white-space: wrap;">
                     <div style="margin: 10px;">
                         <span> Localização </span>
@@ -100,14 +100,6 @@
                         </div>
                     </div>
 
-                    <div style="margin: 10px;">
-                        <span> Equipe </span>
-                        <div style="margin: 10px;">
-                            <span> a partir de: </span>
-                            <input class="input" placeholder="qtde de pessoas"> 
-                        </div>
-                    </div>
-
                     <div style="margin: 10px;"> 
                         <span> Escopo  </span>
                         <div>
@@ -119,11 +111,25 @@
                     </div>
 
                     <div style="margin: 10px;"> 
-                        <span> Status  </span>
+                        <span> Tempo  </span>
                         <div>
-                            <button class="filter-btn"> a iniciar </button>
-                            <button class="filter-btn"> em progresso </button>
-                            <button class="filter-btn"> finalizados </button>
+                            <button class="filter-btn"> dias </button>
+                            <button class="filter-btn"> semanas </button>
+                            <button class="filter-btn"> meses </button>
+                            <button class="filter-btn"> anos </button>
+
+                            <div style="margin: 10px;">
+                                <span> Tempo personalizado </span>
+                                <div style="margin: 10px;">
+                                    <span> De: </span>
+                                    <input class="input" placeholder="Min tempo"> 
+                                </div>
+                                <div style="margin: 10px;">
+                                    <span> Até: </span>
+                                    <input class="input" placeholder="Max tempo">
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
 
