@@ -29,41 +29,22 @@
         <button class="bar-btn" data-bs-toggle="dropdown" style="background-color: #0B5DC0;"> 
             <img src="../custom_images/bell.svg" height ="80%" width="80%">
             <ul class="dropdown-menu" style="width: 45%;">
-                <div class="main-container">
-                    <div class="sub-container" style="width: 98%;">
-                        <div class="container-title" style="font-size: 48px;"> Notificações Recentes </div>
-                        <div class="col-flex">
-                            <div style="font-size: 40px;">
-                                <div class="group-not-item">
-                                <div class="not-title-theme"> Pagamento aprovado: </div> 
-                                        enviado XXX,xx para programador frontend
+                <div class="main-container" style="overflow: hidden;">
+                    <div style="height: 90%;">
+                        <div class="container-title" style="font-size: 48px; background-color: #0B5DC0; color: #FFFFFF; border-radius: 20px; width: 99%; margin: 5px;">
+                             Notificações Recentes 
+                        </div>
+                        <div class="sub-container">
+                
+                            <div class="col-flex">
+                                <div style="font-size: 40px;">
+                                    <div class="group-not-item">
+                                    <div class="not-title-theme"> Alguma coisa: </div> 
+                                           Mais algo...talvez algo para moderar.......
+                                    </div>
+                                    
                                 </div>
-                                <div class="group-not-item">
-                                    <div class="not-title-theme"> Pagamento sendo processado: </div>
-                                       enviando XXX,xx para programador frontend
-                                </div>
-                                <div class="group-not-item">
-                                    <div class="not-title-theme"> Atualização: </div> projeto site responsivo
-                                </div>
-                                <div class="group-not-item">
-                                    <div class="not-title-theme"> Atualização: </div> projeto comercial
-                                </div>
-                                <div class="group-not-item">
-                                    <div class="not-title-theme"> Projeto cancelado: </div> projeto de peça automotiva
-                                </div>
-                                <div class="group-not-item">
-                                    <div class="not-title-theme"> Projeto Criado: </div> projeto site responsivo
-                                </div>
-                                <div class="group-not-item">
-                                    <div class="not-title-theme"> Pagamento aprovado: </div> 
-                                        enviado XX,xx para artista anônimo
-                                </div>
-                                <div class="group-not-item">
-                                    <div class="not-title-theme"> Atualização: </div> projeto de arte conceitual
-                                </div>
-                                <div class="group-not-item">
-                                    <div class="not-title-theme"> Atualização: </div> projeto de peça automotiva
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -71,7 +52,7 @@
             </ul>
         </button>
 
-        <a href="E_profile.html" class="bar-btn" style="cursor: pointer;"> 
+        <a href="M_profile.html" class="bar-btn" style="cursor: pointer;"> 
             <object class="icon-image" data="../custom_images/samurai_D.jpeg"></object> 
         </a>
 
@@ -107,190 +88,195 @@
             <button class="project-button" onclick="window.location.href='#';" style="background-color: red; width: 45%; margin: 20px;">
                 Fechar projeto
             </button>
-            <button class="project-button" onclick="window.location.href='../payment.html';" style="background-color: green; width: 45%; margin: 20px;">
+            <button class="project-button" onclick="window.location.href='M_projectexample.html';" style="background-color: green; width: 45%; margin: 20px;">
                 Verificar projeto
             </button>
         </div>
     </div>
 
 
-    <div style="display: flex; justify-content: center; align-items: center; overflow: auto;white-space: nowrap;">
-        <div class="sub-container" style="width: 70%;">
-            <div style="margin: 50px; padding: 10px; background-color: white; border-radius: 10px;"> 
-                <div class="container-title"> Projeto </div>
-                <div class="list-proj">
-                    <div style="display: flex;">
-                        <div class="proj-container">
-                            <div style="margin-top: 10px; margin-bottom: 5px;">
-                                Projeto: Criação de loja online
+    <div class="main-container">
+        <div style="width: 67%; background-color: #FFFFFF; margin: 5px; border-radius: 20px; overflow: hidden;">
+            <div class="container-title" style="font-size: 48px;">
+                Projetos a serem Moderados 
+            </div>
+            <div class="sub-container" style="border-style: solid; background-color: #BABABA;border-color: darkgray; height: 88%; border-radius: 20px;">
+                <div style="margin: 50px; padding: 10px; background-color: white; border-radius: 10px;"> 
+                    <div class="container-title"> Projeto </div>
+                    <div class="list-proj">
+                        <div style="display: flex;">
+                            <div class="proj-container">
+                                <div style="margin-top: 10px; margin-bottom: 5px;">
+                                    Projeto: Criação de loja online
+                                </div>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    Data de publicação: 23/09/2023
+                                </div>
                             </div>
-                            <div style="margin-top: 10px; margin-bottom: 20px;">
-                                Data de publicação: 23/09/2023
+                            <div class="proj-container">
+                                <div style="margin-top: 10px; margin-bottom: 5px;">
+                                    Preço: R$5.000,00
+                                </div>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    Status: Em andamento
+                                </div>
                             </div>
                         </div>
-                        <div class="proj-container">
-                            <div style="margin-top: 10px; margin-bottom: 5px;">
-                                Preço: R$5.000,00
-                            </div>
-                            <div style="margin-top: 10px; margin-bottom: 20px;">
-                                Status: Em andamento
-                            </div>
-                        </div>
+                        <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
                     </div>
-                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
+                </div>
+                
+                <div style="margin: 50px; padding: 10px; background-color: white; border-radius: 10px;"> 
+                    <div class="container-title"> Projeto </div>
+                    <div class="list-proj">
+                        <div style="display: flex;">
+                            <div class="proj-container">
+                                <div style="margin-top: 10px; margin-bottom: 5px;">
+                                    Projeto: Criação de loja online
+                                </div>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    Data de publicação: 23/09/2023
+                                </div>
+                            </div>
+                            <div class="proj-container">
+                                <div style="margin-top: 10px; margin-bottom: 5px;">
+                                    Preço: R$5.000,00
+                                </div>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    Status: Em andamento
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
+                    </div>
+                </div>
+    
+                <div style="margin: 50px; padding: 10px; background-color: white; border-radius: 10px;"> 
+                    <div class="container-title"> Projeto </div>
+                    <div class="list-proj">
+                        <div style="display: flex;">
+                            <div class="proj-container">
+                                <div style="margin-top: 10px; margin-bottom: 5px;">
+                                    Projeto: Criação de loja online
+                                </div>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    Data de publicação: 23/09/2023
+                                </div>
+                            </div>
+                            <div class="proj-container">
+                                <div style="margin-top: 10px; margin-bottom: 5px;">
+                                    Preço: R$5.000,00
+                                </div>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    Status: Em andamento
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
+                    </div>
+                </div>
+    
+                <div style="margin: 50px; padding: 10px; background-color: white; border-radius: 10px;"> 
+                    <div class="container-title"> Projeto </div>
+                    <div class="list-proj">
+                        <div style="display: flex;">
+                            <div class="proj-container">
+                                <div style="margin-top: 10px; margin-bottom: 5px;">
+                                    Projeto: Criação de loja online
+                                </div>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    Data de publicação: 23/09/2023
+                                </div>
+                            </div>
+                            <div class="proj-container">
+                                <div style="margin-top: 10px; margin-bottom: 5px;">
+                                    Preço: R$5.000,00
+                                </div>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    Status: Em andamento
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
+                    </div>
+                </div>
+    
+                <div style="margin: 50px; padding: 10px; background-color: white; border-radius: 10px;"> 
+                    <div class="container-title"> Projeto </div>
+                    <div class="list-proj">
+                        <div style="display: flex;">
+                            <div class="proj-container">
+                                <div style="margin-top: 10px; margin-bottom: 5px;">
+                                    Projeto: Criação de loja online
+                                </div>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    Data de publicação: 23/09/2023
+                                </div>
+                            </div>
+                            <div class="proj-container">
+                                <div style="margin-top: 10px; margin-bottom: 5px;">
+                                    Preço: R$5.000,00
+                                </div>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    Status: Em andamento
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
+                    </div>
+                </div>
+    
+                <div style="margin: 50px; padding: 10px; background-color: white; border-radius: 10px;"> 
+                    <div class="container-title"> Projeto </div>
+                    <div class="list-proj">
+                        <div style="display: flex;">
+                            <div class="proj-container">
+                                <div style="margin-top: 10px; margin-bottom: 5px;">
+                                    Projeto: Criação de loja online
+                                </div>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    Data de publicação: 23/09/2023
+                                </div>
+                            </div>
+                            <div class="proj-container">
+                                <div style="margin-top: 10px; margin-bottom: 5px;">
+                                    Preço: R$5.000,00
+                                </div>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    Status: Em andamento
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
+                    </div>
+                </div>
+    
+                <div style="margin: 50px; padding: 10px; background-color: white; border-radius: 10px;"> 
+                    <div class="container-title"> Projeto </div>
+                    <div class="list-proj">
+                        <div style="display: flex;">
+                            <div class="proj-container">
+                                <div style="margin-top: 10px; margin-bottom: 5px;">
+                                    Projeto: Criação de loja online
+                                </div>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    Data de publicação: 23/09/2023
+                                </div>
+                            </div>
+                            <div class="proj-container">
+                                <div style="margin-top: 10px; margin-bottom: 5px;">
+                                    Preço: R$5.000,00
+                                </div>
+                                <div style="margin-top: 10px; margin-bottom: 20px;">
+                                    Status: Em andamento
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
+                    </div>
                 </div>
             </div>
-            
-            <div style="margin: 50px; padding: 10px; background-color: white; border-radius: 10px;"> 
-                <div class="container-title"> Projeto </div>
-                <div class="list-proj">
-                    <div style="display: flex;">
-                        <div class="proj-container">
-                            <div style="margin-top: 10px; margin-bottom: 5px;">
-                                Projeto: Criação de loja online
-                            </div>
-                            <div style="margin-top: 10px; margin-bottom: 20px;">
-                                Data de publicação: 23/09/2023
-                            </div>
-                        </div>
-                        <div class="proj-container">
-                            <div style="margin-top: 10px; margin-bottom: 5px;">
-                                Preço: R$5.000,00
-                            </div>
-                            <div style="margin-top: 10px; margin-bottom: 20px;">
-                                Status: Em andamento
-                            </div>
-                        </div>
-                    </div>
-                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
-                </div>
-            </div>
-
-            <div style="margin: 50px; padding: 10px; background-color: white; border-radius: 10px;"> 
-                <div class="container-title"> Projeto </div>
-                <div class="list-proj">
-                    <div style="display: flex;">
-                        <div class="proj-container">
-                            <div style="margin-top: 10px; margin-bottom: 5px;">
-                                Projeto: Criação de loja online
-                            </div>
-                            <div style="margin-top: 10px; margin-bottom: 20px;">
-                                Data de publicação: 23/09/2023
-                            </div>
-                        </div>
-                        <div class="proj-container">
-                            <div style="margin-top: 10px; margin-bottom: 5px;">
-                                Preço: R$5.000,00
-                            </div>
-                            <div style="margin-top: 10px; margin-bottom: 20px;">
-                                Status: Em andamento
-                            </div>
-                        </div>
-                    </div>
-                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
-                </div>
-            </div>
-
-            <div style="margin: 50px; padding: 10px; background-color: white; border-radius: 10px;"> 
-                <div class="container-title"> Projeto </div>
-                <div class="list-proj">
-                    <div style="display: flex;">
-                        <div class="proj-container">
-                            <div style="margin-top: 10px; margin-bottom: 5px;">
-                                Projeto: Criação de loja online
-                            </div>
-                            <div style="margin-top: 10px; margin-bottom: 20px;">
-                                Data de publicação: 23/09/2023
-                            </div>
-                        </div>
-                        <div class="proj-container">
-                            <div style="margin-top: 10px; margin-bottom: 5px;">
-                                Preço: R$5.000,00
-                            </div>
-                            <div style="margin-top: 10px; margin-bottom: 20px;">
-                                Status: Em andamento
-                            </div>
-                        </div>
-                    </div>
-                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
-                </div>
-            </div>
-
-            <div style="margin: 50px; padding: 10px; background-color: white; border-radius: 10px;"> 
-                <div class="container-title"> Projeto </div>
-                <div class="list-proj">
-                    <div style="display: flex;">
-                        <div class="proj-container">
-                            <div style="margin-top: 10px; margin-bottom: 5px;">
-                                Projeto: Criação de loja online
-                            </div>
-                            <div style="margin-top: 10px; margin-bottom: 20px;">
-                                Data de publicação: 23/09/2023
-                            </div>
-                        </div>
-                        <div class="proj-container">
-                            <div style="margin-top: 10px; margin-bottom: 5px;">
-                                Preço: R$5.000,00
-                            </div>
-                            <div style="margin-top: 10px; margin-bottom: 20px;">
-                                Status: Em andamento
-                            </div>
-                        </div>
-                    </div>
-                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
-                </div>
-            </div>
-
-            <div style="margin: 50px; padding: 10px; background-color: white; border-radius: 10px;"> 
-                <div class="container-title"> Projeto </div>
-                <div class="list-proj">
-                    <div style="display: flex;">
-                        <div class="proj-container">
-                            <div style="margin-top: 10px; margin-bottom: 5px;">
-                                Projeto: Criação de loja online
-                            </div>
-                            <div style="margin-top: 10px; margin-bottom: 20px;">
-                                Data de publicação: 23/09/2023
-                            </div>
-                        </div>
-                        <div class="proj-container">
-                            <div style="margin-top: 10px; margin-bottom: 5px;">
-                                Preço: R$5.000,00
-                            </div>
-                            <div style="margin-top: 10px; margin-bottom: 20px;">
-                                Status: Em andamento
-                            </div>
-                        </div>
-                    </div>
-                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
-                </div>
-            </div>
-
-            <div style="margin: 50px; padding: 10px; background-color: white; border-radius: 10px;"> 
-                <div class="container-title"> Projeto </div>
-                <div class="list-proj">
-                    <div style="display: flex;">
-                        <div class="proj-container">
-                            <div style="margin-top: 10px; margin-bottom: 5px;">
-                                Projeto: Criação de loja online
-                            </div>
-                            <div style="margin-top: 10px; margin-bottom: 20px;">
-                                Data de publicação: 23/09/2023
-                            </div>
-                        </div>
-                        <div class="proj-container">
-                            <div style="margin-top: 10px; margin-bottom: 5px;">
-                                Preço: R$5.000,00
-                            </div>
-                            <div style="margin-top: 10px; margin-bottom: 20px;">
-                                Status: Em andamento
-                            </div>
-                        </div>
-                    </div>
-                    <button class="btn-list-proj" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> Ver Projeto </button>
-                </div>
-            </div>
-            
+        
         </div>
     </div>
 </body>
