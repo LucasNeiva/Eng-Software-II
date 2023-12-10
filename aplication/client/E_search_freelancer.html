@@ -88,14 +88,24 @@
 
     </div>
 
-    <div class="barra">
-
+    <div class="barra" style="justify-content: right; padding-right: 13px;">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ordenar por:
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"> Padrão </a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"> Melhores Avaliados </a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"> Hora mais barata </a></li>
+            <li><a class="dropdown-item" href="#"> Hora mais cara </a></li>
+        </ul>
     </div>
 
     <div style="display: flex;">
         <div class="content-box" style="width: 25%; overflow: hidden;">
             <div class="filter-title"> Filtros: </div>
-            <div style="background-color: #F7F7F7;height: 700px; overflow: auto; white-space:nowrap;">
+            <div style="background-color: #F7F7F7;height: 725px; overflow: auto; white-space:nowrap;">
                 <div class="col-flex" style="display: grid; font-size: 28px; overflow: auto; white-space: wrap;">
                     <div style="margin: 10px;">
                         <span> Localização </span>
@@ -120,15 +130,6 @@
                         <div> 
                             <span> Sub-Especialização </span>
                             <input class="input" placeholder="Digite a profissão">
-                        </div>
-                    </div>
-
-                    <div style="margin: 10px;">
-                        <span> Avaliação </span>
-                        <div>
-                            <button class="filter-btn"> mais bem avaliados </button>
-                            <button class="filter-btn"> mais recentes </button>
-                            <button class="filter-btn"> por quantidade </button>
                         </div>
                     </div>
                 </div>
