@@ -178,6 +178,26 @@
     border-top-left-radius: 0;
     overflow: hidden;
 }
+.proj-container{
+    text-align: start; 
+
+    display: table-row;  
+    width: 50%;
+    margin: 10px;
+}
+.list-proj{
+    font-size: 24px;
+    text-wrap: wrap;
+
+    background-color: #F7F7F7; 
+    border-color: #0B5DC0; 
+
+    border-style: solid;
+    border-radius: 10px;
+    overflow: hidden;
+
+    margin: 10px;
+}
 .prof-list{
     background-color: #bababa;
     
@@ -324,6 +344,15 @@
     padding: 20px;
     margin-top: 7px;
     border-radius: 10px;
+}
+.btn-list-proj{
+    background-color: #0B5DC0; 
+    color: #FFFFFF; 
+    
+    border: none;
+    width: 50%;
+    padding: 10px;
+    margin: -2px;
 }
 
 /*imagens e recursos*/
