@@ -92,7 +92,7 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
 
 
 ## Modelo Conceitual
-![modelo_conceitual](https://github.com/lucasneiva/Eng-Software-II/assets/112989505/da67b22e-b13a-4143-9e87-f0b3c60577cb)
+![Conceitual](https://github.com/lucasneiva/Eng-Software-II/assets/112989505/0925a924-298a-45c6-a713-764845288751)
 
 ## Prototipação da Tela Principal em Baixa Fidelidade
 ![MicrosoftTeams-image](https://github.com/lucasneiva/Eng-Software-II/assets/112989505/d0578b62-80a9-4bd7-8ec3-005e810abc35)
