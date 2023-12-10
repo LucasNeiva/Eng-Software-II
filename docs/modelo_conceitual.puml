@@ -6,6 +6,7 @@ class Usuário {
   - email: string
   - senha: string
   - dataDeCadastro: date
+  - premium: Bool
 }
 
 class Freelancer {
@@ -37,18 +38,9 @@ class Projeto {
   - status: string
 }
 
-class Pagamento {
-  - id: int
-  - valor: float
-  - tipo: string
-  - status: string
-}
-
 class Chat {
   - id: int
-  - texto: string
-  - remetente: Usuário
-  - destinatário: Usuário
+  - mensagens: string[]
 }
 
 class Avaliacao {
@@ -62,19 +54,17 @@ Usuário <|-- Moderador
 Usuário <|-- Cliente
 Usuário <|-- Freelancer
 
-Avaliacao --> Freelancer: Refere-se
+
+Avaliacao --> Usuário : Refere-se
 Avaliacao --> Projeto: Refere-se
 
-Cliente --> Avaliacao: Faz
+Usuário --> Avaliacao: Faz
 Proposta --> Projeto: Pertence a
 Freelancer --> Proposta: Faz Proposta
 Freelancer --> Projeto: Participa em
 Cliente --> Projeto: Cria
 Chat --> Projeto: Pertence a
 Moderador --> Projeto: Modera
-Pagamento --> Projeto: Pertence a
-Cliente --> Pagamento: Envia
-Pagamento --> Freelancer: Recebe
 
 Usuário -- Chat: Participa em
 @enduml
