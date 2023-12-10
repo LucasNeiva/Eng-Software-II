@@ -12,7 +12,6 @@ F --> (Criar Perfil)
 
 F --> (Criar Proposta)
 F --> (Visualizar Propostas)
-F --> (Editar Proposta)
 F --> (Excluir Proposta)
 
 F --> (Visualizar Projetos)
