@@ -88,7 +88,8 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
 - Concorrência de Players Estabelecidos: Diferenciar-se por Meio de Atendimento Personalizado e Solução Especializada
 
 ## Casos de Uso
-![Casos de Uso](https://github.com/lucasneiva/Eng-Software-II/assets/112989505/7d333fe2-3804-428c-b303-2ca3628a8571)
+![Casos de Uso](https://github.com/lucasneiva/Eng-Software-II/assets/112989505/3936bf36-af7f-4dba-94a4-fc135fc2ee41)
+
 
 ## Modelo Conceitual
 ![modelo_conceitual](https://github.com/lucasneiva/Eng-Software-II/assets/112989505/da67b22e-b13a-4143-9e87-f0b3c60577cb)
