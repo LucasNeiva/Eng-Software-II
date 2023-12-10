@@ -14,7 +14,7 @@
 
 ## Resumo:
 
-  O GetSamurais é uma plataforma online que conecta freelancers e empresas em projetos de design, programação e marketing digital de forma rápida e segura. Oferece perfis verificados, busca avançada, chat, gerenciamento de projetos e pagamentos. O objetivo é resolver os desafios de freelancers encontrarem projetos e empresas contratarem talentos de forma eficiente. Utiliza tecnologias como React, NodeJS e MongoDB. A monetização vem de assinaturas premium, taxas por projeto, publicidade e serviços adicionais. Métricas-chave, estratégias de marketing, suporte e lançamento são definidos, assim como riscos e mitigação.
+  O GetSamurais é uma plataforma online que conecta freelancers e empresas em projetos de design, programação e marketing digital de forma rápida e segura. Oferece perfis verificados, busca avançada, chat, gerenciamento de projetos e pagamentos. O objetivo é resolver os desafios de freelancers encontrarem projetos e empresas contratarem talentos de forma eficiente. Utiliza tecnologias como React, NodeJS e MongoDB. A monetização vem de assinaturas premium. Métricas-chave, estratégias de marketing, suporte e lançamento são definidos, assim como riscos e mitigação.
 
 ## Problema:
 
@@ -35,11 +35,22 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
 
 ## Requisitos do Sistema (MVP):
 
-- Criação de Perfis com Portfólios, Habilidades, Reputação e Valores
-- Busca Avançada e Filtros para Projetos e Freelancers
-- Envio e Gerenciamento de Propostas
-- Comunicação via Chat
-- Gateway de Pagamentos Integrado
+1. **Cadastro e Perfil:**
+   - Criação de perfil para Freelancer com informações como Portfólio, Habilidades, Reputação e Valores.
+   - Criação de perfil para Cliente.
+
+2. **Busca Avançada e Filtros:**
+   - Implementar uma funcionalidade de busca avançada para projetos.
+   - Filtros para encontrar Freelancers com base em habilidades, reputação e valores.
+
+3. **Propostas:**
+   - Desenvolver um sistema para envio de propostas por Freelancers.
+   - Gerenciamento de propostas por Freelancers, incluindo a capacidade de visualizar, editar e excluir propostas.
+
+4. **Comunicação via Chat:**
+   - Implementar um sistema de chat para permitir a comunicação entre Freelancers e Clientes.
+   - Capacidade de conversar em tempo real para discutir detalhes do projeto.
+
 
 ## Tecnologias:
 
@@ -50,11 +61,7 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
 
 ## Monetização:
 
- - *Assinatura Premium para Empresas*: Fornece acesso a recursos avançados, como busca aprimorada e suporte prioritário.
-
- - *Taxa Fixa por Projeto*: Uma taxa fixa é cobrada por projeto concluído, garantindo previsibilidade nos ganhos dos freelancers.
-
- - *Publicidade e Patrocínio de Vagas*: Empresas podem promover projetos em destaque para freelancers, gerando uma fonte adicional de receita.
+ - *Assinatura Premium*: Fornece acesso a recursos avançados, como destaque de busca, aumento de projetos aberots e suporte prioritário.
 
 ## Métricas-Chave:
 
@@ -70,15 +77,9 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
 - Parcerias com Comunidades e Influenciadores
 - E-mail Marketing e Remarketing para Recapturar Leads
 
-## Estratégia de Suporte:
-
-- Chat no Aplicativo com Resposta em Até 2 Horas
-- E-mail e Telefone com Resposta em Até 8 Horas
-- Base de Conhecimento e Fórum da Comunidade
-
 ## Estratégia de Lançamento:
 
-- Cadastro Gratuito por 1 Mês Após o Lançamento
+- Premium Gratuito por 1 Mês para novos usuarios
 
 ## Riscos e Mitigação:
 
