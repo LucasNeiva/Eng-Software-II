@@ -6,16 +6,39 @@ actor "Freelancer" as F
 actor "Cliente" as E
 actor "Moderador" as A
 
+F --> (Conversar em Chat)
+
 F --> (Criar Perfil)
-F --> (Buscar Projeto)
+
+F --> (Criar Proposta)
+F --> (Visualizar Propostas)
+F --> (Editar Proposta)
+F --> (Excluir Proposta)
+
+F --> (Visualizar Projetos)
+F --> (Buscar Projetos)
+F --> (Reportar Projeto)
+
+F --> (Avaliar Cliente)
+
+
+E --> (Conversar em Chat)
+
+E --> (Avaliar Freelancer)
+E --> (Buscar Freelancer)
+
+E --> (Recusar Proposta)
+E --> (Aceitar Proposta)
+E --> (Visualizar Propostas)
+
 E --> (Criar Projeto)
-F --> (Enviar Proposta)
-E --> (Gerenciar Propostas)
-F --> (Comunicar)
-E --> (Comunicar)
-F --> (Gerenciar Projeto)
-E --> (Gerenciar Projeto)
-F --> (Receber Pagamento)
-A --> (Moderar projetos)
+E --> (Editar Projeto)
+E --> (Fechar Projeto)
+E --> (Visualizar Projetos)
+
+
+A --> (Verificar Projeto)
+A --> (Fechar Projeto)
+A --> (Conversar em Chat)
 
 @enduml
