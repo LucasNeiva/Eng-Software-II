@@ -61,7 +61,7 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
 
 ## Monetização:
 
- - *Assinatura Premium*: Fornece acesso a recursos avançados, como destaque de busca, aumento de projetos aberots e suporte prioritário.
+ - *Assinatura Premium*: Fornece acesso a recursos avançados, como destaque de busca, aumento do limite máximo de projetos abertos e suporte prioritário.
 
 ## Métricas-Chave:
 
