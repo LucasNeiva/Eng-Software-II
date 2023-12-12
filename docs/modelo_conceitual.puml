@@ -79,7 +79,6 @@ Proposta --> Projeto: Pertence a
 Freelancer --> Proposta: Faz Proposta
 Freelancer --> Projeto: Participa em
 Cliente --> Projeto: Cria
-Chat --> Projeto: Pertence a
 Moderador --> Projeto: Modera
 Freelancer --> Chat: Participa em
 Cliente --> Chat: Participa em
