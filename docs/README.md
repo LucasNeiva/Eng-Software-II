@@ -61,9 +61,9 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
 
 ## Monetização:
 
+ - *Projetos*: Os usuários podem criar 1 projeto grátis por mês, projetos adicionais custarão R$24,90 cada.
+ - *Propostas*: Os usuários podem criar 5 propostas grátis por mês, porpostas adicionais custarão R$4,99 cada.
  - *Assinatura Premium*: Fornece acesso a recursos avançados, como destaque de busca, aumento do limite máximo de projetos, para clientes, e propostas, para freelancers, abertos e suporte prioritário.
- - *Projetos*: Os usuários poderão criar 1 projeto por mês por R$29,90, assinantes premium pagarão R$19,90 por projeto, bem como poderão criar 5 projetos por mês.
- - *Propostas*: Os usuários poderão criar 5 propostas por mês por R$9,99 cada, assinantes premium pagarão R$4,99 por proposta, bem como poderão criar 25 propostas por mês.
 
 ## Métricas-Chave:
 
