@@ -62,6 +62,8 @@ O **GetSamurais** Resolverá Esses Problemas Facilitando a Conexão entre Freela
 ## Monetização:
 
  - *Assinatura Premium*: Fornece acesso a recursos avançados, como destaque de busca, aumento do limite máximo de projetos, para clientes, e propostas, para freelancers, abertos e suporte prioritário.
+ - *projetos*: será possível criar 1 projeto por mês por R$29,90, assinantes premium pagarão R$19,90 por projeto, bem como poderão criar 5 projetos por mês.
+ - *propostas*: será possível criar 5 propostas por mês por R$9,99 cada, assinantes premium pagarão R$4,99 por proposta, bem como poderão criar 25 propostas por mês.
 
 ## Métricas-Chave:
 
