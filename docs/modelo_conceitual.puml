@@ -16,13 +16,19 @@ categoria: string[]
 subcategoria: string[]
 precoHora: float
 reputação: int
-descricao: string
+participacoes: int
+tempResp: int
 portfolio: string
+formacao: string
+descricao: string
 }
 
 class Cliente {
 
 tipo: string
+contatos: string
+caracteristicas: string
+sobre: string
 }
 
 class Moderador {
@@ -34,6 +40,7 @@ class Proposta {
 
 id: int
 valor: float
+prazo: int
 descricao: string
 status: string
 data: date
@@ -46,8 +53,9 @@ nome: string
 categoria: string
 descricao: string
 dataDeCriacao: date
-precoMin: float
-precoMax: float
+dataDeConclusao: date
+precoInic: float
+precoFinal: float
 status: string
 }
 
@@ -61,7 +69,7 @@ data: date
 class Avaliacao {
 
 id: int
-Classificação: int
+Experiencia: int
 Comentário: string
 dataDaAvaliação: date
 }
