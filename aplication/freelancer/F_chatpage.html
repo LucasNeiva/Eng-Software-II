@@ -99,11 +99,21 @@
         </div>
 
         <div class="content-box" style="width: 70%; overflow: hidden; background-color: #F7F7F7;">
-            <div class="container-title"> Detalhes da Conversa </div>
+            <div class="container-title"> 
+                <a href="F_prof_example.html" style="text-decoration: none; color: black;"> Arabe Eletro Computacional </a> 
+            </div>
+            <div style="display: flex; justify-content: right;">
+                <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
+                style="border-radius: 10px; background-color: #0B5DC0; color: #FFFFFF;
+                 margin-right: 40px; margin-top: -55px; font-size: 26px;"> 
+                    ver projetos 
+                </button>
+            </div>
+            
             <div class="sub-container" style="height: 92%; border-radius: 20px;">
                 <ul class="list-group" style="font-size: 26px;">
                     <li class="group-chat-item">
-                        <div style="color: white; text-wrap: wrap;"> <a href="F_prof_example.html" style="text-decoration: none; color: white;"> Arabe Eletro Computacional </a> </div>
+                        <div style="color: white; text-wrap: wrap;">  </div>
                         <div class="chat-content" style="padding: 15px; background-color: #bababa;">
                             <div class="chat-box" style="text-align: center; border-style:solid; border-color: #bababa;"> 
                                 Data: 19 de outubro de 2023 
@@ -137,6 +147,7 @@
                                 <button class="bar-btn" onclick="window.location.href='#;'" style="margin: unset; margin-right: 10px; background-color: #0B5DC0;">
                                     <img src="../custom_images/plus-circle.svg" height ="80%" width="80%">
                                 </button>
+
                                 <input class="input" placeholder="Mensagem" style="width: 88%; margin: unset;">
                                 <button class="inp-btn" style="width: 12%; margin: unset; margin-left: 10px;"> Enviar </button>
                             </div>
@@ -145,6 +156,59 @@
                 </ul>
             </div>
 
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <div class="container-title"> Projetos </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="sub-container" style="width: 100%">
+                        
+                        <ul class="list-group" style="font-size: 26px;">
+                            <li class="group-chat-item">
+                                <div style="color: white; text-align: center; text-wrap: wrap;"> Criação de um site de e-commerce </a> </div>
+                                <div class="chat-content" style="padding: 15px;">
+                                    <p class="card-text" style="text-align: center;"> R$10.000 | 6 semanas <br></p>
+
+                                    <button class="btn-go-chat" data-bs-toggle="modal" data-bs-target="#exampleModal"> ver projeto </button>
+                                </div>
+                            </li>
+                        </ul>
+            
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel"> Criação de um site de e-commerce </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="font-size: 24px;">
+                        
+                        <div class="chat-content" style="padding: 15px;">
+                            <div style="font-size: 16px; text-align: center; margin-top: -10px;"> Anunciado em: 02/09/2023 </div>
+                            
+                            <p class="card-text"> Preço esperado: R$10.000 <br></p>
+                            <p class="card-text"> Prazo estimado: 6 semanas <br></p>
+                            <p class="card-text"> O freelancer será responsável pelo desenvolvimento completo do site,
+                             desde o design até a programação. As tarefas incluem:
+                             <li> Criação de um design responsivo e moderno </li>
+                             <li> Implementação de um sistema de checkout seguro</li>
+                             <li> Integração com meios de pagamento</li>
+                             <li> Integração com serviços de logística</li> </p>
+                        </div>
+                        
+                    </div>
+                        <div class="modal-footer" style="display: flex; justify-content: center; align-items: center;">
+                            <button type="button" class="btn btn-primary" onclick="window.location.href='F_proposal.html';"> Criar proposta </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

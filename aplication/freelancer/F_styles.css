@@ -301,6 +301,16 @@
 
     width: 16.66%;
 }
+.btn-go-chat{
+    background-color: #0B5DC0; 
+    color: white; 
+    
+    margin: 10px; 
+    margin-bottom: 0px;
+    width: 95%; 
+    border-radius: 10px;
+    border-color: #0B5DC0;
+}
 .btn-primary{
     text-align: center;
     width: 60%;
