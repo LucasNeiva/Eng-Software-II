@@ -1,104 +1,71 @@
-# GetSamurai - Facilitando a Jornada de Freelancers e Empresas com uma Plataforma Ágil e Confiável
 
-## Participantes do Projeto
+**New Briefing: Cybersecurity Freelance Platform (Project Name Ideas Welcome!)**
 
-- Afonso Henrique
+**Date:**  2023-11-14 (or today's date)
 
-- Arthur Motter
+**Participants:**  (List your team members)
 
-- Edson Mitsuru
+**Purpose:**
 
-- Gustavo Mota
+* To create a specialized platform connecting freelance cybersecurity professionals with clients seeking expertise in secure software development. 
+* Solve the challenges of finding reliable, security-minded developers for clients and connecting cybersecurity experts with relevant projects.
 
-- Lucas Neiva
+**Problem Statement:**
 
-## Resumo:~
+* Companies of all sizes face mounting cybersecurity threats that can be introduced through vulnerabilities in their software.
+* Many lack in-house cybersecurity expertise or struggle to find qualified cybersecurity professionals to fill the gap.
 
-  O GetSamurai é uma plataforma online que conecta freelancers e empresas em projetos de design, programação e marketing digital de forma rápida e segura. Oferece perfis verificados, busca avançada, chat, gerenciamento de projetos e pagamentos. O objetivo é resolver os desafios de freelancers encontrarem projetos e empresas contratarem talentos de forma eficiente. Utiliza tecnologias como React, NodeJS e MongoDB. A monetização vem de assinaturas premium, taxas por projeto, publicidade e serviços adicionais. Métricas-chave, estratégias de marketing, suporte e lançamento são definidos, assim como riscos e mitigação.
+**Solution:**
 
-## Problema:
+Our platform will offer the following solutions:
 
-- Freelancers Enfrentam Desafios na Busca por Projetos de Qualidade e Clientes Competentes
-- Empresas Enfrentam Dificuldades para Encontrar e Recrutar Freelancers Talentosos de Maneira Eficiente
+* **Verified Profiles with Security Focus:** Freelancers showcase skills in secure coding, code review, pen-testing (app-specific), DevSecOps, cloud security, etc., with potential for certification/skill verification down the line.
+* **Security-Centric Project Board:** Clients post projects emphasizing security needs (compliance, risk mitigation, specific vulnerability remediation, security architecture help).
+* **Focused Search & Matching:** Search filters by specialization, experience, certifications,  rate, and availability. 
+* **Secure Communication & Collaboration:**   Encrypted messaging, file sharing, and possibly project management tools built with security in mind.
 
-## Solução:
+**Target Users**
 
-O **GetSamurai** Resolverá Esses Problemas Facilitando a Conexão entre Freelancers e Contratantes de Forma Ágil, Segura e Transparente em Projetos de Design, Programação e Marketing Digital.
+* **Freelancers:** 
+    * Secure coding specialists 
+    * Code reviewers (security focus)
+    * Penetration testers (application-specific)
+    * DevSecOps consultants
+    * Specialists in cloud/mobile/IoT security
+* **Clients:**
+    * Software development companies
+    * Startups (especially those handling sensitive data)
+    * Internal dev teams needing security help
+    * Businesses undergoing modernization 
+    * Government agencies & contractors 
+    * E-commerce sites
+    * Manufacturers using connected systems 
+    * Research Institutions
 
-## Personas:
+**Technology Considerations (Preliminary)**
+* **Frontend:** React (consider libraries for handling sensitive data/enhanced security)
+* **Backend:** NodeJS (potential to explore security-focused frameworks)
+* **Database:**  MongoDB (consider alternatives if encryption/fine-grained access control are top priorities)
+* **Hosting:**  AWS (explore services tailored for compliance or sensitive data if applicable)
 
-1. Jéssica: Designer, 27 Anos, Busca Projetos Estáveis e Bem Remunerados
-2. João: Programador, 30 Anos, Procura Projetos Desafiadores com Boa Remuneração
-3. Sílvio: Redator, 40 Anos, Aceita Projetos Flexíveis em Meio Período
-4. Move Digital: Agência com 20 Funcionários, Procura um Freelancer React para Projeto de 3 Meses
-5. SiteUp: Startup de E-commerce, Busca um Freelancer WordPress para Projeto Contínuo
+**Monetization:**
 
-## Requisitos do Sistema (MVP):
+* **Freemium Subscription Model:**  Tiered for freelancers and potentially clients, with premium features driving upgrades.
+* **Commission on Projects:** A percentage per successful project.
+* **Value-Added (Potential):** 
+    * Partnered training/certification prep
+    * "Quick Consult" options with top-tier experts
 
-- Criação de Perfis com Portfólios, Habilidades, Reputação e Valores
-- Busca Avançada e Filtros para Vagas e Freelancers
-- Envio e Gerenciamento de Propostas
-- Comunicação via Chat e Videoconferência
-- Ferramentas de Gerenciamento de Projetos: Tarefas, Cronograma e Armazenamento de Arquivos
-- Gateway de Pagamentos Integrado
+**Key Differentiators**
 
-## Tecnologias:
+* **Security Niche:**  Not just a job board, but a true understanding of security in development.
+* **Vetting (if offered):**  A way to establish trust for clients.
+* **Community:**  Knowledge base, discussion areas focused on secure development. 
 
-- Frontend: React (Eficiente para Renderização)
-- Backend: NodeJS (Escalável e Flexível)
-- Banco de Dados: MongoDB (Bom para Escala e Desempenho)
-- Hospedagem: AWS (Confiável e Flexível)
+**Next Steps**
 
-## Monetização:
+1. **Refine User Personas:** Create 2-3 detailed profiles of ideal freelancers and clients. 
+2. **Competitive Analysis:** Deep dive into how competing freelance sites address security (or if they even do!)
+3. **Outline Basic Feature List:** Prioritize based on MVP goals
 
- - *Assinatura Premium para Empresas*: Fornece acesso a recursos avançados, como busca aprimorada e suporte prioritário.
-
- - *Taxa Fixa por Projeto*: Uma taxa fixa é cobrada por projeto concluído, garantindo previsibilidade nos ganhos dos freelancers.
-
- - *Publicidade e Patrocínio de Vagas*: Empresas podem promover projetos em destaque para freelancers, gerando uma fonte adicional de receita.
-
- - *Serviços Adicionais Pagos*: Oferecemos serviços extras, como revisão de portfólios e consultoria, disponíveis para freelancers a um custo adicional.
-
-## Métricas-Chave:
-
-- Taxa de Conversão de Visitantes em Cadastros: Meta >25%
-- Taxa de Propostas Convertidas em Projetos: Meta >15%
-- Ticket Médio por Projeto: Meta R$5.000
-- NPS (Net Promoter Score): Meta >70
-
-## Estratégia de Marketing:
-
-- Conteúdo Patrocinado no LinkedIn, Instagram e TikTok
-- Tráfego Pago por Meio do Google Ads com Ênfase em Palavras-Chave Relacionadas
-- Parcerias com Comunidades e Influenciadores
-- E-mail Marketing e Remarketing para Recapturar Leads
-
-## Estratégia de Suporte:
-
-- Chat no Aplicativo com Resposta em Até 2 Horas
-- E-mail e Telefone com Resposta em Até 8 Horas
-- Base de Conhecimento e Fórum da Comunidade
-
-## Estratégia de Lançamento:
-
-- Cadastro Gratuito por 1 Mês Após o Lançamento
-- Ofertas Exclusivas para Empresas que Tragam Equipes de Freelancers
-- Marketing de Influenciadores e Promoções nas Redes Sociais
-
-## Riscos e Mitigação:
-
-- Baixo Engajamento Inicial de Usuários: Criar Conteúdo de Valor e Oferecer Benefícios para os Primeiros Usuários
-- Problemas Técnicos na Plataforma: Monitoramento Pró-ativo e Resposta Rápida da Equipe de TI
-- Concorrência de Players Estabelecidos: Diferenciar-se por Meio de Atendimento Personalizado e Solução Especializada
-
-## Casos de Uso
-![casos_de_uso](https://github.com/lucasneiva/Eng-Software-II/assets/112989505/67f77646-0fe8-4be4-abc6-21ebad4112ed)
-
-## Modelo Conceitual
-
-![modelo_conceitual](https://github.com/lucasneiva/Eng-Software-II/assets/112989505/c7355fd0-7157-4289-8b02-41c79dca5193)
-
-## Prototipação da Tela Principal em Baixa Fidelidade
-![image](https://github.com/lucasneiva/Eng-Software-II/assets/105697480/8472a065-8ef8-45cf-92a3-c1e59619f862)
-
-
+**Let me know if you want to brainstorm some catchy project names, or dive into any other aspect of this briefing!** 
