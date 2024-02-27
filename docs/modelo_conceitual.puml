@@ -1,91 +1,95 @@
-@startuml
+@startuml Conceitual
 
 class Usuário {
-  - id: int
-  - nome: string
-  - email: string
-  + logIn(): void
-  + logOut(): void
+
+id: int
+nome: string
+email: string
+senha: string
+dataDeCadastro: date
+premium: Bool
 }
 
 class Freelancer {
-  - skills: string[]
-  - reputação: int
-  - portfolio: string
-  + enviarProposta(vaga: Vaga, valor: float): void
+
+categoria: string[]
+subcategoria: string[]
+precoHora: float
+reputação: int
+participacoes: int
+tempResp: int
+portfolio: string
+formacao: string
+descricao: string
 }
 
-class Empresa {
-  - vagas_abertas: Vaga[]
-  + criarVaga(titulo: string, descricao: string, remuneracao: float): Vaga
+class Cliente {
+
+tipo: string
+contatos: string
+caracteristicas: string
+sobre: string
 }
 
-class Administrador {
-  + gerenciarUsuários(): void
-}
+class Moderador {
 
-class Vaga {
-  - id: int
-  - titulo: string
-  - descricao: string
-  - remuneração: float
-  + fecharVaga(): void
-  + receberProposta(proposta: Proposta): void
+id: int
 }
 
 class Proposta {
-  - id: int
-  - freelancer: Freelancer
-  - vaga: Vaga
-  - valor: float
-  - status: string
-  + aceitarProposta(): void
+
+id: int
+valor: float
+prazo: int
+descricao: string
+status: string
+data: date
 }
 
 class Projeto {
-  - id: int
-  - nome: string
-  - empresa: Empresa
-  + adicionarMembro(usuario: Usuário): void
+
+id: int
+nome: string
+categoria: string
+descricao: string
+dataDeCriacao: date
+dataDeConclusao: date
+precoInic: float
+precoFinal: float
+status: string
 }
 
-class Pagamento {
-  - id: int
-  - valor: float
-  - tipo: string
-  - status: string
-  - projeto: Projeto
-  + efetuarPagamento(): void
+class Chat {
+
+id: int
+mensagens: string[]
+data: date
 }
 
-class Mensagem {
-  - id: int
-  - texto: string
-  - remetente: Usuário
-  - destinatário: Usuário
-  + enviarMensagem(destinatario: Usuário, texto: string): void
+class Avaliacao {
+
+id: int
+Experiencia: int
+Comentário: string
+dataDaAvaliação: date
 }
 
-class Feedback {
-  - avaliação: int
-  - comentário: string
-  - usuário: Usuário
-  + deixarFeedback(avaliacao: int, comentario: string): void
-}
-
-Usuário <|-- Administrador
-Usuário <|-- Empresa
+Usuário <|-- Moderador
+Usuário <|-- Cliente
 Usuário <|-- Freelancer
 
 
+Avaliacao --> Usuário : Refere-se
+Avaliacao --> Projeto: Refere-se
+
+Usuário --> Avaliacao: Faz
+Proposta --> Projeto: Pertence a
 Freelancer --> Proposta: Faz Proposta
-Empresa --> Proposta: Recebe Proposta
 Freelancer --> Projeto: Participa em
-Empresa --> Projeto: Inicia
-Administrador -- Usuário: Gerencia
-Projeto -- Pagamento: Realiza Pagamento
-Projeto -- Feedback: Recebe Feedback
-Mensagem -- Usuário: Envia Mensagem
-Vaga "1" -- "0..*" Proposta: Tem Propostas
+Cliente --> Projeto: Cria
+Moderador --> Projeto: Modera
+Freelancer --> Chat: Participa em
+Cliente --> Chat: Participa em
+Moderador --> Chat: Participa em
 
 @enduml

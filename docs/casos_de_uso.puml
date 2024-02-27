@@ -1,22 +1,43 @@
-@startuml
+@startuml Casos de Uso
 
 left to right direction
 
 actor "Freelancer" as F
-actor "Empresa" as E
-actor "Administrador" as A
+actor "Cliente" as E
+actor "Moderador" as A
 
-F --> (Criar Perfil de Freelancer)
-F --> (Buscar Vagas)
-E --> (Postar Vaga)
-F --> (Enviar Proposta)
-E --> (Gerenciar Propostas)
-F --> (Comunicação)
-E --> (Comunicação)
-F --> (Gerenciar Projeto)
-E --> (Gerenciar Projeto)
-F --> (Receber Pagamento)
-A --> (Gerenciar Usuários)
-A --> (Configurar Sistema)
+F --> (Conversar em Chat)
+
+F --> (Criar Perfil)
+
+F --> (Criar Proposta)
+F --> (Visualizar Propostas)
+F --> (Excluir Proposta)
+
+F --> (Visualizar Projetos)
+F --> (Buscar Projetos)
+F --> (Reportar Projeto)
+
+F --> (Avaliar Cliente)
+
+
+E --> (Conversar em Chat)
+
+E --> (Avaliar Freelancer)
+E --> (Buscar Freelancer)
+
+E --> (Recusar Proposta)
+E --> (Aceitar Proposta)
+E --> (Visualizar Propostas)
+
+E --> (Criar Projeto)
+E --> (Editar Projeto)
+E --> (Fechar Projeto)
+E --> (Visualizar Projetos)
+
+
+A --> (Verificar Projeto)
+A --> (Fechar Projeto)
+A --> (Conversar em Chat)
 
 @enduml

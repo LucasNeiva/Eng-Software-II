@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="E_styles.css">
+    <title>chatpage - Getsamurais</title>
+</head>
+<body class="body">
+    <div class="barra">
+        
+        <div style="margin: 5px;">
+            <a class="bar-title" href="E_homepage.html">
+                GetSamurais
+                <div class="bar-subtext"> Enterprise user </div>
+            </a>
+        </div>
+        
+        <input class="input" placeholder="Buscar Freelancer" style="border-bottom-right-radius: 0; border-top-right-radius: 0;">
+        <button class="inp-btn" onclick="window.location.href='E_search_freelancer.html';"
+        style="margin-left: -20px; border-bottom-left-radius: 0; border-top-left-radius: 0; background-color: #F7F7F7;">buscar</button>
+
+        <button class="bar-btn" onclick="window.location.href='E_projectpage.html';" style="background-color: #0B5DC0;">
+            <img src="../custom_images/inbox.svg" height ="80%" width="80%">
+        </button>
+        
+        <button class="bar-btn" onclick="window.location.href='E_chatpage.html';" style="background-color: #0B5DC0;">
+            <img src="../custom_images/chat-text.svg" height ="80%" width="80%" style="rotate: 0 1 0 180deg;">
+        </button>
+
+        <button class="bar-btn" data-bs-toggle="dropdown" style="background-color: #0B5DC0;"> 
+            <img src="../custom_images/bell.svg" height ="80%" width="80%">
+            <ul class="dropdown-menu" style="width: 25%;">
+                <div class="main-container" style="overflow: hidden;">
+                    <div style="height: 90%;">
+                        <div class="container-title" style="font-size: 48px; background-color: #0B5DC0; color: #FFFFFF; border-radius: 20px; width: 100%;">
+                             Notificações Recentes 
+                        </div>
+                        <div class="sub-container">
+                
+                            <div class="col-flex">
+                                <div style="font-size: 40px;">
+                                    <div class="group-not-item">
+                            
+                                    <div class="group-not-item">
+                                        <div class="not-title-theme"> Atualização: </div> projeto site responsivo
+                                    </div>
+                                    <div class="group-not-item">
+                                        <div class="not-title-theme"> Atualização: </div> projeto comercial
+                                    </div>
+                                    <div class="group-not-item">
+                                        <div class="not-title-theme"> Projeto cancelado: </div> projeto de peça automotiva
+                                    </div>
+                                    <div class="group-not-item">
+                                        <div class="not-title-theme"> Projeto Criado: </div> projeto site responsivo
+                                    </div>
+                                    <div class="group-not-item">
+                                        <div class="not-title-theme"> Atualização: </div> projeto de arte conceitual
+                                    </div>
+                                    <div class="group-not-item">
+                                        <div class="not-title-theme"> Atualização: </div> projeto de peça automotiva
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </button>
+
+        <a href="E_profile.html" class="bar-btn" style="cursor: pointer;"> 
+            <object class="icon-image" data="../custom_images/samurai_D.jpeg"></object> 
+        </a>
+
+    </div>
+    
+    <div class="main-container">
+        <div class="content-box" style="width: 30%; overflow: hidden; background-color: #F7F7F7;">
+            <div class="container-title"> Conversas </div>
+            <div class="sub-container" style="border-radius: 20px; height: 92%;">
+                
+                <ul class="list-group" style="font-size: 26px;">
+                    <li class="group-chat-item">
+                        <span style="color: white;"> <a href="E_prof_example.html" style="text-decoration: none; color: white;"> Ana Silva </a>  </span>
+                        <div class="chat-content" style="padding: 15px;">
+                            <p> Última mensagem: </p>
+                             Você: Ok, espero seu retorno.
+                        </div>
+                    </li>
+                    <li class="group-chat-item">
+                        <span style="color: white;"> <a href="E_prof_example.html" style="text-decoration: none; color: white;"> Calos Augusto </a> </span>
+                        <div class="chat-content" style="padding: 15px;">
+                            <p> Última mensagem: </p>
+                             Carlos: Gostaria de um prazo maior.
+                        </div>
+                    </li>
+                    <li class="group-chat-item">
+                        <span style="color: white;"> <a href="E_prof_example.html" style="text-decoration: none; color: white;"> Daronco Bonco </a> </span>
+                        <div class="chat-content" style="padding: 15px;">
+                            <p> Última mensagem: </p>
+                             Daronco: eh, acho o pagamento insuficiente.
+                        </div>
+                    </li>
+                    <li class="group-chat-item">
+                        <span style="color: white;"> <a href="E_prof_example.html" style="text-decoration: none; color: white;"> Muhamad Bin </a> </span>
+                        <div class="chat-content" style="padding: 15px;">
+                            <p> Última mensagem: </p>
+                             Você: seria possível terminar o projeto em menos tempo?
+                        </div>
+                    </li>
+                    <li class="group-chat-item">
+                        <span style="color: white;"> <a href="E_prof_example.html" style="text-decoration: none; color: white;"> Jorge Bagre </a> </span>
+                        <div class="chat-content" style="padding: 15px;">
+                            <p> Última mensagem: </p>
+                             Jorge: pague essa mixaria para sua sogra!
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="content-box" style="width: 70%; overflow: hidden; background-color: #F7F7F7;">
+            <div class="container-title"> <a href="E_prof_example.html" style="text-decoration: none; color: black;"> Ana Silva </a> </div>
+            <div class="sub-container" style="border-radius: 20px; padding-bottom: 20px;">
+                <ul class="list-group" style="font-size: 26px;">
+                    <li class="group-chat-item">
+                        <div style="color: white;">  </div>
+                        <div class="chat-content" style="padding: 15px; background-color: #bababa;">
+                            <div class="chat-box" style="text-align: center; border-style:solid; border-color: #bababa;"> 
+                                Data: 19 de outubro de 2023 
+                            </div>
+                            <div class="chat-box" style="margin-right: 55%; width: 45%;">
+                                <p> Ana Silva </p>
+                                Olá, sou a Ana e estou aqui para realizar o levantamento de requisitos do site.
+                                <p style="font-size: 16px; margin-top: 5px; margin-bottom: -5px;"> 10:30 </p>
+                            </div>
+                            <div class="chat-box" style="margin-left: 55%; width: 45%;">
+                                <p style="text-align: right;"> Você </p>
+                                O site deve ser responsivo, bem como consiga ser acessado e funcione corretamente em mobile devices, de tal forma que abranja a maior fatia de usuarios possíveis. 
+                                <p style="font-size: 16px; margin-top: 5px; margin-bottom: -5px;"> 10:33 </p>
+                            </div>
+                            <div class="chat-box" style="margin-left: 55%; width: 45%;">
+                                <p style="text-align: right;"> Você </p>
+                                Também seria bom se você fizesse o site com design minimalista, mas você pode me surpreender!
+                                <p style="font-size: 16px; margin-top: 5px; margin-bottom: -5px;"> 10:34 </p>
+                            </div>
+                            <div class="chat-box" style="margin-right: 55%; width: 45%;">
+                                <p> Ana Silva  </p>
+                                Certo, irei realizar o orçamento e irei analizar quanto tempo será necessário para fazer o site.
+                                <p style="font-size: 16px; margin-top: 5px; margin-bottom: -5px;"> 10:45 </p>
+                            </div>
+                            <div class="chat-box" style="margin-left: 75%; width: 25%;">
+                                <p style="text-align: right;"> Você </p>
+                                Ok, espero seu retorno.
+                                <p style="font-size: 16px; margin-top: 5px; margin-bottom: -5px;"> 10:49 </p>
+                            </div>
+                            <div class="chat-box" style="display:flex; align-items: center;border-style: solid; border-color: #bababa;">
+                                <button class="bar-btn" onclick="window.location.href='#;'" style="margin: unset; margin-right: 10px; background-color: #0B5DC0;">
+                                    <img src="../custom_images/plus-circle.svg" height ="80%" width="80%">
+                                </button>
+                                <input class="input" placeholder="Mensagem" style="width: 88%; margin: unset;">
+                                <button class="inp-btn" style="width: 12%; margin: unset; margin-left: 10px;"> Enviar </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
